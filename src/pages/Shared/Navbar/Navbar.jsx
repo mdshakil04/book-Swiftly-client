@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <div className="navbar bg-[#153c97] text-white">
       <div className="flex-1">
-        <a className="btn btn-ghost text-xl">daisyUI</a>
+        <a className="btn btn-ghost font-bold font-mono text-2xl">Book Swiftly</a>
       </div>
       <div className="flex-none gap-2">
         <div className="form-control">
