@@ -4,7 +4,7 @@ import ReactTabs from "../Tabs/ReactTabs";
 
 const Home = () => {
     return (
-        <div  className=" max-w-screen-2xl  mx-auto">
+        <div  className="">
             <Banner></Banner>
             <ReactTabs></ReactTabs>
             <Offers></Offers>
