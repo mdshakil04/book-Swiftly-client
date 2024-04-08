@@ -2,7 +2,7 @@ import Banner from "../Banner/Banner";
 
 const Home = () => {
     return (
-        <div  className=" max-w-screen-xl lg:h-[650px] mx-auto">
+        <div  className=" max-w-screen-xl  mx-auto">
             <Banner></Banner>
         </div>
     );
