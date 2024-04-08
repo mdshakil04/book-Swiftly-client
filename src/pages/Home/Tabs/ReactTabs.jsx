@@ -28,48 +28,151 @@ const ReactTabs = () => {
         <TabPanel>
           <div className=" grid lg:grid-cols-3 md:grid-cols-2 gap-4 ">
             <div>
-                <h1 className=" p-4 font-bold text-2xl text-blue-950 absolute">Naraongonj</h1>
-                <img className=" md:h-[300px]" src={DhakaImage1} alt="Image" />
+              <div className="card card-compact  bg-base-100 shadow-xl">
+                <figure>
+                  <img src={DhakaImage1} alt="Image" />
+                </figure>
+                <div className="card-body">
+                  <h2 className="card-title text-3xl">Naraongonj</h2>
+                  <div className="card-actions ">
+                    <button className="btn btn-outline btn-accent">
+                      Book An Adventure
+                    </button>
+                  </div>
+                </div>
+              </div>
             </div>
+            {/* -------------------------------------------------------------- */}
             <div>
-                <h1 className=" p-4 font-bold text-2xl text-white absolute">Foridpur</h1>
-                <img className=" md:h-[300px]" src={DhakaImage2} alt="Image" />
+              <div className="card card-compact  bg-base-100 shadow-xl">
+                <figure>
+                  <img src={BarishalImage1} alt="Image" />
+                </figure>
+                <div className="card-body">
+                  <h2 className="card-title text-3xl">Foridpur</h2>
+                  <div className="card-actions ">
+                    <button className="btn btn-outline btn-accent">
+                      Book An Adventure
+                    </button>
+                  </div>
+                </div>
+              </div>
             </div>
+            {/* ------------------------------------------------------------- */}
             <div>
-                <h1 className=" p-4 font-bold text-2xl text-white absolute">Chadpur</h1>
-                <img className=" md:h-[300px]" src={DhakaImage3} alt="Image" />
+              <div className="card card-compact  bg-base-100 shadow-xl">
+                <figure>
+                  <img src={DhakaImage3} alt="Image" />
+                </figure>
+                <div className="card-body">
+                  <h2 className="card-title text-3xl">Chandpur</h2>
+                  <div className="card-actions ">
+                    <button className="btn btn-outline btn-accent">
+                      Book An Adventure
+                    </button>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </TabPanel>
+        {/* ------------------------------------------ */}
         <TabPanel>
           <div className=" grid lg:grid-cols-3 md:grid-cols-2 gap-4 ">
-          <div>
-                <h1 className=" p-4 font-bold text-2xl text-white absolute">Bhola</h1>
-                <img className=" md:h-[300px]" src={BarishalImage1} alt="Image" />
+            <div>
+              <div className="card card-compact  bg-base-100 shadow-xl">
+                <figure>
+                  <img src={BarishalImage1} alt="Image" />
+                </figure>
+                <div className="card-body">
+                  <h2 className="card-title text-3xl">Bholaj</h2>
+                  <div className="card-actions ">
+                    <button className="btn btn-outline btn-success">
+                      Book An Adventure
+                    </button>
+                  </div>
+                </div>
+              </div>
             </div>
             <div>
-                <h1 className=" p-4 font-bold text-2xl text-white absolute">Potuakhali</h1>
-                <img className=" md:h-[300px]" src={BarishalImage2} alt="Image" />
+              <div className="card card-compact  bg-base-100 shadow-xl">
+                <figure>
+                  <img src={BarishalImage2} alt="Image" />
+                </figure>
+                <div className="card-body">
+                  <h2 className="card-title text-3xl">Potukhali</h2>
+                  <div className="card-actions ">
+                    <button className="btn btn-outline btn-success">
+                      Book An Adventure
+                    </button>
+                  </div>
+                </div>
+              </div>
             </div>
             <div>
-                <h1 className=" p-4 font-bold text-2xl text-white absolute">FhirozPur</h1>
-                <img className=" md:h-[300px]" src={BarishalImage3} alt="Image" />
+              <div className="card card-compact  bg-base-100 shadow-xl">
+                <figure>
+                  <img src={BarishalImage3} alt="Image" />
+                </figure>
+                <div className="card-body">
+                  <h2 className="card-title text-3xl">Firozpur</h2>
+                  <div className="card-actions ">
+                    <button className="btn btn-outline btn-success">
+                      Book An Adventure
+                    </button>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </TabPanel>
+        {/* --------------------------------------------- */}
         <TabPanel>
           <div className=" grid lg:grid-cols-3 md:grid-cols-2 gap-4 ">
-          <div>
-                <h1 className=" p-4 font-bold text-2xl text-white absolute">Maizdi</h1>
-                <img className=" md:h-[300px]" src={Noakhali1} alt="Image" />
+            <div>
+              <div className="card card-compact  bg-base-100 shadow-xl">
+                <figure>
+                  <img src={Noakhali1} alt="Image" />
+                </figure>
+                <div className="card-body">
+                  <h2 className="card-title text-3xl">Laxmipur</h2>
+                  <div className="card-actions ">
+                    <button className="btn btn-outline btn-info">
+                      Book An Adventure
+                    </button>
+                  </div>
+                </div>
+              </div>
             </div>
             <div>
-                <h1 className=" p-4 font-bold text-2xl text-white absolute">LoxmiPur</h1>
-                <img className=" md:h-[300px]" src={Noakhali2} alt="Image" />
+              <div className="card card-compact  bg-base-100 shadow-xl">
+                <figure>
+                  <img src={Noakhali2} alt="Image" />
+                </figure>
+                <div className="card-body">
+                  <h2 className="card-title text-3xl">Kompanigonj</h2>
+                  <div className="card-actions ">
+                    <button className="btn btn-outline btn-info">
+                      Book An Adventure
+                    </button>
+                  </div>
+                </div>
+              </div>
             </div>
             <div>
-                <h1 className=" p-4 font-bold text-2xl text-white absolute">Laxsham</h1>
-                <img className=" md:h-[300px]" src={Noakhali3} alt="Image" />
+              <div className="card card-compact  bg-base-100 shadow-xl">
+                <figure>
+                  <img src={Noakhali3} alt="Image" />
+                </figure>
+                <div className="card-body">
+                  <h2 className="card-title text-3xl">Sonapur</h2>
+                  <div className="card-actions ">
+                    <button className="btn btn-outline btn-info">
+                      Book An Adventure
+                    </button>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </TabPanel>
