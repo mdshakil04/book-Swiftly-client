@@ -3,7 +3,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className="navbar bg-[#009EE7] text-white">
+    <div className="navbar bg-[#009EE7] max-w-screen-2xl mx-auto text-white">
       <div className="flex-1">
         <a className="btn btn-ghost font-bold font-mono text-2xl">Book Swiftly</a>
       </div>

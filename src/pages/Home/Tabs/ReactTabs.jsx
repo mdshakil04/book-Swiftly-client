@@ -15,7 +15,7 @@ import Noakhali3 from "../../../assets/Images/Noakhali/rice-noodles-bowl-curry-p
 const ReactTabs = () => {
   return (
     <div className=" container my-8 mx-auto text-center border-2 p-8">
-      <h1 className=" container mx-auto mb-4 border-y-4 uppercase max-w-lg text-center text-4xl font-bold">
+      <h1 className=" container mx-auto mb-4 border-y-4  max-w-lg text-center text-3xl">
         --Select Your Desire City--
       </h1>
       <Tabs>
@@ -85,7 +85,7 @@ const ReactTabs = () => {
                   <img src={BarishalImage1} alt="Image" />
                 </figure>
                 <div className="card-body">
-                  <h2 className="card-title text-3xl">Bholaj</h2>
+                  <h2 className="card-title text-3xl">Bhola</h2>
                   <div className="card-actions ">
                     <button className="btn btn-outline btn-success">
                       Book An Adventure

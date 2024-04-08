@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
 import { Parallax } from "react-parallax";
-import bannerImg from "../../../assets/Images/banner2.jpg";
+import bannerImg from "../../../assets/Images/banner.jpg";
 
 const Banner = () => {
   return (
