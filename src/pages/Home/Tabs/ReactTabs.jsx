@@ -14,9 +14,9 @@ import Noakhali3 from "../../../assets/Images/Noakhali/rice-noodles-bowl-curry-p
 
 const ReactTabs = () => {
   return (
-    <div className=" container my-8 mx-auto text-center border-2 p-8">
-      <h1 className=" container mx-auto mb-4 border-y-4  max-w-lg text-center text-3xl">
-        --Select Your Desire City--
+    <div className=" container my-8 max-w-screen-2xl mx-auto text-center border-2 p-8">
+      <h1 className=" container mx-auto mb-4 border-y-4  max-w-xs text-center py-2 text-3xl">
+        Top Destination
       </h1>
       <Tabs>
         <TabList>
