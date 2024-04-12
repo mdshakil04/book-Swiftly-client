@@ -27,7 +27,13 @@ const BookingCategories = () => {
           </div>
         </TabPanel>
         <TabPanel>
-          <h2>Any content 2</h2>
+          <div className=" max-w-xs border">
+            <h2>Select Date</h2>
+            <DatePicker
+              selected={startDate}
+              onChange={(date) => setStartDate(date)}
+            />
+          </div>
         </TabPanel>
         <TabPanel>
           <h2>Any content 3</h2>
