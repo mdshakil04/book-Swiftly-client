@@ -1,12 +1,15 @@
+/* eslint-disable no-unused-vars */
 import React from "react";
+import img1 from "../../../assets/Images/Dhaka/friends-walking-up-mountain.jpg";
+import img2 from "../../../assets/Images/Barishal/girl-embroidered-dress-is-standing-yard-looking-into-sky.jpg";
 
 const TopServices = () => {
   return (
-    <div className=" max-w-screen-2xl mx-auto grid md:grid-cols-2">
+    <div className=" max-w-screen-2xl mx-auto grid md:grid-cols-2 my-4 gap-8">
       <div className="card card-side bg-base-100 shadow-xl ">
         <figure className=" w-1/2">
           <img
-            src="https://daisyui.com/images/stock/photo-1635805737707-575885ab0820.jpg"
+            src={img1}
             alt="Movie"
           />
         </figure>
@@ -22,7 +25,7 @@ const TopServices = () => {
       <div className="card card-side bg-base-100 shadow-xl ">
         <figure className=" w-1/2">
           <img
-            src="https://daisyui.com/images/stock/photo-1635805737707-575885ab0820.jpg"
+            src={img2}
             alt="Movie"
           />
         </figure>
