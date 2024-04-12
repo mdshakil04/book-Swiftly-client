@@ -1,8 +1,12 @@
 /* eslint-disable no-unused-vars */
-import React from "react";
+
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
+import React, { useState } from "react";
+import DatePicker from "react-datepicker";
+import "react-datepicker/dist/react-datepicker.css";
 const BookingCategories = () => {
+  const [startDate, setStartDate] = useState(new Date());
   return (
     <div className=" container my-8 max-w-screen-2xl mx-auto text-center border-2 p-8">
       <Tabs>
@@ -14,7 +18,13 @@ const BookingCategories = () => {
         </TabList>
 
         <TabPanel>
-          <h2>Any content 1</h2>
+          <div className=" max-w-xs border">
+            <h2>Select Date</h2>
+            <DatePicker
+              selected={startDate}
+              onChange={(date) => setStartDate(date)}
+            />
+          </div>
         </TabPanel>
         <TabPanel>
           <h2>Any content 2</h2>
