@@ -1,4 +1,5 @@
 import Banner from "../Banner/Banner";
+import BookingCategories from "../BookingCategories/BookingCategories";
 import ExtraSection from "../ExtraSection/ExtraSection";
 import Offers from "../Offers/Offers";
 import ReactTabs from "../Tabs/ReactTabs";
@@ -11,6 +12,7 @@ const Home = () => {
             <ReactTabs></ReactTabs>
             <Offers></Offers>
             <ExtraSection></ExtraSection>
+            <BookingCategories></BookingCategories>
             <TopServices></TopServices>
         </div>
     );
