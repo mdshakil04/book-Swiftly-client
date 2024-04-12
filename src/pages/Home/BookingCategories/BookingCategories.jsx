@@ -7,8 +7,10 @@ const BookingCategories = () => {
     <div className=" container my-8 max-w-screen-2xl mx-auto text-center border-2 p-8">
       <Tabs>
         <TabList>
-          <Tab>Title 1</Tab>
-          <Tab>Title 2</Tab>
+          <Tab>Stays</Tab>
+          <Tab>Flights</Tab>
+          <Tab>Cars</Tab>
+          <Tab>Things to do</Tab>
         </TabList>
 
         <TabPanel>
@@ -16,6 +18,12 @@ const BookingCategories = () => {
         </TabPanel>
         <TabPanel>
           <h2>Any content 2</h2>
+        </TabPanel>
+        <TabPanel>
+          <h2>Any content 3</h2>
+        </TabPanel>
+        <TabPanel>
+          <h2>Any content 4</h2>
         </TabPanel>
       </Tabs>
     </div>
