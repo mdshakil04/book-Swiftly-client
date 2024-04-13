@@ -18,15 +18,15 @@ const BookingCategories = () => {
         </TabList>
 
         <TabPanel>
-          <div className=" flex gap-24">
-            <div className=" max-w-xs p-4 border-2 rounded-xl">
+          <div className=" flex gap-24 container mx-auto justify-center">
+            <div className=" max-w-xs p-2 border-2 rounded-xl">
               <h2 className=" font-bold">Select Date</h2>
               <DatePicker
                 selected={startDate}
                 onChange={(date) => setStartDate(date)}
               />
             </div>
-            <div className=" p-4">
+            <div className=" p-2">
               <div className="dropdown">
                 <div tabIndex={0} role="button" className="btn m-1">
                   Chose Destination
@@ -50,15 +50,15 @@ const BookingCategories = () => {
           </div>
         </TabPanel>
         <TabPanel>
-          <div className=" flex gap-24">
-            <div className=" max-w-xs p-4 border-2 rounded-xl">
+          <div className=" flex gap-24 container mx-auto justify-center">
+            <div className=" max-w-xs  p-2 border-2 rounded-xl">
               <h2 className=" font-bold">Select Date</h2>
               <DatePicker
                 selected={startDate}
                 onChange={(date) => setStartDate(date)}
               />
             </div>
-            <div className=" p-4">
+            <div className=" p-2">
               <div className="dropdown">
                 <div tabIndex={0} role="button" className="btn m-1">
                   Chose Destination
@@ -82,15 +82,15 @@ const BookingCategories = () => {
           </div>
         </TabPanel>
         <TabPanel>
-          <div className=" flex gap-24">
-            <div className=" max-w-xs p-4 border-2 rounded-xl">
+          <div className=" flex gap-24 container mx-auto justify-center">
+            <div className=" max-w-xs  p-2 border-2 rounded-xl">
               <h2 className=" font-bold">Select Date</h2>
               <DatePicker
                 selected={startDate}
                 onChange={(date) => setStartDate(date)}
               />
             </div>
-            <div className=" p-4">
+            <div className=" p-2">
               <div className="dropdown">
                 <div tabIndex={0} role="button" className="btn m-1">
                   Chose Destination
@@ -114,15 +114,15 @@ const BookingCategories = () => {
           </div>
         </TabPanel>
         <TabPanel>
-          <div className=" flex gap-24">
-            <div className=" max-w-xs p-4 border-2 rounded-xl">
+          <div className=" flex gap-24 container mx-auto justify-center">
+            <div className=" max-w-xs p-2 border-2 rounded-xl">
               <h2 className=" font-bold">Select Date</h2>
               <DatePicker
                 selected={startDate}
                 onChange={(date) => setStartDate(date)}
               />
             </div>
-            <div className=" p-4">
+            <div className=" p-2">
               <div className="dropdown">
                 <div tabIndex={0} role="button" className="btn m-1">
                   Chose Destination
