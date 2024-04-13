@@ -28,8 +28,7 @@ const TopServices = () => {
             <p>Bangladeshi culinary habits were strongly influenced by the cuisine
             of the areas Mughal rulers. This includes rich, aromatic dishes such
             as biriyani and korma that require the use of a large array of
-            spices along with a great deal of ghee. Dhaka was the Mughal capital
-            of the Bengal Subah and a major trading center in South Asia.</p>
+            spices along with a great deal of ghee.</p>
             <div className="card-actions">
             <p className=" font-bold">Price: Start from $<span className=" text-red-500">120</span></p>
             <button className="btn btn-outline btn-primary">Book Now</button>
@@ -49,8 +48,7 @@ const TopServices = () => {
             <p> When guests visit a Bangladeshi home, they are usually offered a
             variety of traditional dishes, such as rice, fish, meat, lentils,
             and vegetables as well as snacks and sweets. But hospitality in
-            Bangladesh goes beyond just food. The people of Bangladesh are known
-            for their generosity and willingness to help others.</p>
+            Bangladesh goes beyond just food.</p>
             <div className="card-actions">
             <p className=" font-bold">Price: Start from $<span className=" text-red-500">220</span></p>
             <button className="btn btn-outline btn-primary">Book Now</button>
@@ -70,8 +68,7 @@ const TopServices = () => {
             <p> Bangladesh is a country of colourful celebrations. We celebrate our
             faith, life, liberty, nature, elation, and achievements round the
             year through a wide variety of fairs and festivals, organized with
-            inexorable enthusiasm and intricate details. Some Bengali fairs and
-            festivals have recorded history of over 2000 years.</p>
+            inexorable enthusiasm and intricate details.</p>
             <div className="card-actions">
             <p className=" font-bold">Price: Start from $<span className=" text-red-500">180</span></p>
             <button className="btn btn-outline btn-primary">Book Now</button>
@@ -91,8 +88,7 @@ const TopServices = () => {
             <p>Bangladeshi culinary habits were strongly influenced by the cuisine
             of the areas Mughal rulers. This includes rich, aromatic dishes such
             as biriyani and korma that require the use of a large array of
-            spices along with a great deal of ghee. Dhaka was the Mughal capital
-            of the Bengal Subah and a major trading center in South Asia.</p>
+            spices along with a great deal of ghee.</p>
             <div className="card-actions">
             <p className=" font-bold">Price: Start from $<span className=" text-red-500">150</span></p>
             <button className="btn btn-outline btn-primary">Book Now</button>
