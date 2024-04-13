@@ -18,7 +18,7 @@ const BookingCategories = () => {
         </TabList>
 
         <TabPanel>
-          <div className=" max-w-xs border">
+          <div className=" max-w-xs  border-2 rounded-xl">
             <h2>Select Date</h2>
             <DatePicker
               selected={startDate}
@@ -27,7 +27,7 @@ const BookingCategories = () => {
           </div>
         </TabPanel>
         <TabPanel>
-          <div className=" max-w-xs border">
+          <div className=" max-w-xs border-2 rounded-xl">
             <h2>Select Date</h2>
             <DatePicker
               selected={startDate}
@@ -36,7 +36,7 @@ const BookingCategories = () => {
           </div>
         </TabPanel>
         <TabPanel>
-        <div className=" max-w-xs border">
+        <div className=" max-w-xs  border-2 rounded-xl">
             <h2>Select Date</h2>
             <DatePicker
               selected={startDate}
