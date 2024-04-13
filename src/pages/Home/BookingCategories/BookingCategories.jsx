@@ -11,7 +11,7 @@ const BookingCategories = () => {
     <div className=" container my-8 max-w-screen-2xl mx-auto text-center border-2 p-8">
       <Tabs>
         <TabList>
-          <Tab>Stays</Tab>
+          <Tab >Stays</Tab>
           <Tab>Flights</Tab>
           <Tab>Cars</Tab>
           <Tab>Things to do</Tab>
@@ -19,7 +19,7 @@ const BookingCategories = () => {
 
         <TabPanel>
           <div className=" max-w-xs  border-2 rounded-xl">
-            <h2>Select Date</h2>
+            <h2 className=" font-bold">Select Date</h2>
             <DatePicker
               selected={startDate}
               onChange={(date) => setStartDate(date)}
@@ -28,7 +28,7 @@ const BookingCategories = () => {
         </TabPanel>
         <TabPanel>
           <div className=" max-w-xs border-2 rounded-xl">
-            <h2>Select Date</h2>
+            <h2 className=" font-bold">Select Date</h2>
             <DatePicker
               selected={startDate}
               onChange={(date) => setStartDate(date)}
@@ -37,7 +37,7 @@ const BookingCategories = () => {
         </TabPanel>
         <TabPanel>
         <div className=" max-w-xs  border-2 rounded-xl">
-            <h2>Select Date</h2>
+            <h2 className=" font-bold">Select Date</h2>
             <DatePicker
               selected={startDate}
               onChange={(date) => setStartDate(date)}
