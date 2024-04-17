@@ -59,7 +59,7 @@ const Login = () => {
                 <button className="btn btn-primary">Login</button>
               </div>
             </form>
-            <p className=" ml-8 mb-4">New Here? <Link to= "/signUp">Create an Account</Link> </p>
+            <p className=" ml-8 mb-4 text-yellow-400">New Here? <Link to= "/signUp">Create an Account</Link> </p>
           </div>
         </div>
       </div>
