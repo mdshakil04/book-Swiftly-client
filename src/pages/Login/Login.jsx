@@ -2,6 +2,7 @@
 import React, { useContext } from "react";
 import loginImg from "../../assets/Images/Festival/login.jpg";
 import { AuthContext } from "../../providers/AuthProvider";
+import { Link } from "react-router-dom";
 const Login = () => {
   const  {signIn}= useContext(AuthContext)
     const handleLogin = event => {
@@ -58,6 +59,7 @@ const Login = () => {
                 <button className="btn btn-primary">Login</button>
               </div>
             </form>
+            <p className=" ml-8 mb-4">New Here? <Link to= "/signUp">Create an Account</Link> </p>
           </div>
         </div>
       </div>
