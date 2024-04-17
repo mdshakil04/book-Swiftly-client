@@ -5,12 +5,11 @@ const SignUp = () => {
     const {
         register,
         handleSubmit,
-        watch,
         formState:  {errors} }
        = useForm();
       const onSubmit = (data) => console.log(data)
     
-      console.log(watch("example")) 
+    //   console.log(watch("example")) 
   return (
     <div>
       <div className="hero min-h-screen bg-base-200">
@@ -30,38 +29,41 @@ const SignUp = () => {
                   <span className="label-text">Name</span>
                 </label>
                 <input
-                {...register("name")}
+                {...register("name", { required: true })}
                   name="name"  
                   type="text"
                   placeholder="Name"
                   className="input input-bordered"
-                  required
+                //   required
                 />
+                {errors.name && <span className=" text-red-500">Name is required</span>}
               </div>
               <div className="form-control">
                 <label className="label">
                   <span className="label-text">Email</span>
                 </label>
                 <input
-                {...register("email")}
+                {...register("email", { required: true })}
                 name="email"
                   type="email"
                   placeholder="email"
                   className="input input-bordered"
-                  required
+                //   required
                 />
+                {errors.email && <span className=" text-red-500">Email is required</span>}
               </div>
               <div className="form-control">
                 <label className="label">
                   <span className="label-text">Password</span>
                 </label>
                 <input
-                {...register("password")}
+                {...register("password", { required: true, minLength: 6 })}
                   type="password"
                   placeholder="password"
                   className="input input-bordered"
-                  required
+                //   required
                 />
+                {errors.password && <span className=" text-red-500">Password is required</span>}
                 <label className="label">
                   <a href="#" className="label-text-alt link link-hover">
                     Forgot password?
