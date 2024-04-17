@@ -11,6 +11,7 @@ const SignUp = () => {
     
     //   console.log(watch("example")) 
   return (
+    // -----------This is React Hook From----------
     <div>
       <div className="hero min-h-screen bg-base-200">
         <div className="hero-content flex-col lg:flex-row-reverse">
@@ -36,6 +37,7 @@ const SignUp = () => {
                   className="input input-bordered"
                 //   required
                 />
+                {/* ------Name validation---------- */}
                 {errors.name && <span className=" text-red-500">Name is required</span>}
               </div>
               <div className="form-control">
@@ -50,6 +52,7 @@ const SignUp = () => {
                   className="input input-bordered"
                 //   required
                 />
+                {/* --------Email validation-------------- */}
                 {errors.email && <span className=" text-red-500">Email is required</span>}
               </div>
               <div className="form-control">
@@ -57,13 +60,21 @@ const SignUp = () => {
                   <span className="label-text">Password</span>
                 </label>
                 <input
-                {...register("password", { required: true, minLength: 6 })}
+                {...register("password", { 
+                    required: true,
+                    minLength: 8,
+                    pattern : /(?=.*[A-Z])(?=.*[!@#$&*])(?=.*[0-9])(?=.*[a-z])/
+                })}
                   type="password"
                   placeholder="password"
                   className="input input-bordered"
                 //   required
                 />
-                {errors.password && <span className=" text-red-500">Password is required</span>}
+                {/* ---------Password validation--------- */}
+                {errors.password?.type === 'required' && <span className=" text-red-500">Password is required</span>}
+                {errors.password?.type === 'minLength' && <span className=" text-red-500">Password must be 8 characters</span>}
+                {errors.password?.type === 'pattern' && <span className=" text-red-500">Password must have 1 uppercase, 1 lowercase, 1 number and 1 Special Character</span>}
+                 {/* ---------Password validation--------- */}
                 <label className="label">
                   <a href="#" className="label-text-alt link link-hover">
                     Forgot password?
