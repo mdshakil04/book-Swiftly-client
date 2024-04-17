@@ -1,14 +1,20 @@
 import { Link } from "react-router-dom";
 import { useForm } from "react-hook-form"
+import { useContext } from "react";
+import { AuthContext } from "../../providers/AuthProvider";
 
 const SignUp = () => {
     const {
-        register,
-        handleSubmit,
-        formState:  {errors} }
-       = useForm();
-      const onSubmit = (data) => console.log(data)
-    
+        register, handleSubmit, formState:  {errors} } = useForm();
+        const {createUser} = useContext(AuthContext);
+        const onSubmit = (data) =>{
+            console.log(data)
+            createUser(data.email, data.password)
+            .then(result => {
+                const loggedUser = result.user;
+                console.log(loggedUser)
+            })
+        }
     //   console.log(watch("example")) 
   return (
     // -----------This is React Hook From----------
@@ -82,10 +88,10 @@ const SignUp = () => {
                 </label>
               </div>
               <div className="form-control mt-6">
-                <button className="btn btn-primary">Login</button>
+                <input  className="btn btn-outline btn-primary" type="submit" value="Sign Up" />
               </div>
             </form>
-            <p className=" ml-8 mb-4 text-yellow-500">Already Register? <Link to= "/login">Got to Login</Link> </p>
+            <p className=" ml-8 mb-4 text-yellow-600">Already Register? <Link to= "/login">Go to Login</Link> </p>
           </div>
         </div>
       </div>
