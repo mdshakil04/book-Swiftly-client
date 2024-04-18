@@ -3,6 +3,7 @@ import { useForm } from "react-hook-form";
 import { useContext } from "react";
 import { AuthContext } from "../../providers/AuthProvider";
 import { Helmet } from "react-helmet";
+import Swal from "sweetalert2";
 
 const SignUp = () => {
   const {
@@ -17,6 +18,10 @@ const SignUp = () => {
     .then((result) => {
       const loggedUser = result.user;
       console.log(loggedUser);
+      Swal.fire({
+        title: "Sign Up Successfully!",
+        icon: "success"
+      });
     });
   };
   //   console.log(watch("example"))

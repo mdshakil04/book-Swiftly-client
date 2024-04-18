@@ -4,6 +4,7 @@ import loginImg from "../../assets/Images/Festival/login.jpg";
 import { AuthContext } from "../../providers/AuthProvider";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
+import Swal from "sweetalert2";
 const Login = () => {
   const { signIn } = useContext(AuthContext);
   const handleLogin = (event) => {
@@ -15,6 +16,10 @@ const Login = () => {
     signIn(email, password).then((result) => {
       const user = result.user;
       console.log(user);
+      Swal.fire({
+        title: "Log In Successful!",
+        icon: "success"
+      });
     });
   };
   return (

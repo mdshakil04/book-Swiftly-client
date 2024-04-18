@@ -1,13 +1,21 @@
 /* eslint-disable no-unused-vars */
-import React from "react";
+import React, { useContext } from "react";
 import { Link } from "react-router-dom";
+import { AuthContext } from "../../../providers/AuthProvider";
 
 const Navbar = () => {
+  const {user, logOut} = useContext(AuthContext)
+  const handleLogOut = () => {
+    logOut()
+    .then(() => {})
+    .cath(error => console.log(error));
+  }
   const navLinks =(
     <>
       <li><Link to= '/'>Home</Link></li>
-      <li><Link to= '/login'>Login</Link></li>
+      
       <li><Link to= '/signUp'>signUp</Link></li>
+     
     </>
   )
   return (
@@ -45,7 +53,16 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="navbar-end">
-        <a className=" btn btn-outline btn-accent" href=""><Link to='/login'>Login</Link></a>
+      {
+        user ?
+         <>
+          <button onClick={handleLogOut} className="btn btn-outline btn-error">Log Out</button>
+         </> 
+        : 
+         <>
+          <li className="btn btn-outline btn-success"><Link to= '/login'>Log In</Link></li>
+         </>
+      }
       </div>
     </div>
   );
