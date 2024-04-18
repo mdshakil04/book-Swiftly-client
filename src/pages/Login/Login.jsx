@@ -5,6 +5,7 @@ import { AuthContext } from "../../providers/AuthProvider";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { Helmet } from "react-helmet";
 import Swal from "sweetalert2";
+import { FcGoogle } from "react-icons/fc";
 const Login = () => {
   const { signIn } = useContext(AuthContext);
   // --------------After Log in--------------------------
@@ -73,8 +74,9 @@ const Login = () => {
                     </a>
                   </label>
                 </div>
-                <div className="form-control mt-6">
-                  <button className="btn btn-primary">Login</button>
+                <div className="form-control mt-6 ">
+                  <button className="btn btn-primary btn-outline text-lg">Log in</button>
+                  <button className="btn btn-success btn-outline mt-2 text-lg"> <FcGoogle />Log in with Google</button>
                 </div>
               </form>
               <p className=" ml-8 mb-4 text-yellow-400">
