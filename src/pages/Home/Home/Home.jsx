@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet";
 import Banner from "../Banner/Banner";
 import BookingCategories from "../BookingCategories/BookingCategories";
 import ExtraSection from "../ExtraSection/ExtraSection";
@@ -7,7 +8,13 @@ import TopServices from "../TopServices/TopServices";
 
 const Home = () => {
     return (
-        <div  className="">
+        <>
+            <Helmet>
+                <title>
+                    Book Swiftly | Home
+                </title>
+            </Helmet>
+            <div  className="">
             <Banner></Banner>
             <ReactTabs></ReactTabs>
             <Offers></Offers>
@@ -15,6 +22,7 @@ const Home = () => {
             <BookingCategories></BookingCategories>
             <TopServices></TopServices>
         </div>
+        </>
     );
 };
 
