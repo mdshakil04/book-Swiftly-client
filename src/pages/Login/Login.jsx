@@ -6,12 +6,20 @@ import { Link, useLocation, useNavigate } from "react-router-dom";
 import { Helmet } from "react-helmet";
 import Swal from "sweetalert2";
 import { FcGoogle } from "react-icons/fc";
+import { GoogleAuthProvider, getAuth } from "firebase/auth";
+import { app } from "../../firebase/firebase.config";
 const Login = () => {
   const { signIn } = useContext(AuthContext);
   // --------------After Log in--------------------------
   const navigate = useNavigate();
   const location = useLocation();
   const from = location.state?.from?.pathname || "/";
+  // --------------Google sign in--------------
+  const auth = getAuth(app)
+  const provider = new GoogleAuthProvider()
+  const handleGoogleSignIn = () =>{
+    console.log("Google Mama is Comming")
+  }
   // -----------------------------------------
   const handleLogin = (event) => {
     event.preventDefault();
@@ -76,7 +84,7 @@ const Login = () => {
                 </div>
                 <div className="form-control mt-6 ">
                   <button className="btn btn-primary btn-outline text-lg">Log in</button>
-                  <button className="btn btn-success btn-outline mt-2 text-lg"> <FcGoogle />Log in with Google</button>
+                  <button onClick={handleGoogleSignIn} className="btn btn-success btn-outline mt-2 text-lg"> <FcGoogle />Log in with Google</button>
                 </div>
               </form>
               <p className=" ml-8 mb-4 text-yellow-400">
