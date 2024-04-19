@@ -6,7 +6,7 @@ import { Link, useLocation, useNavigate } from "react-router-dom";
 import { Helmet } from "react-helmet";
 import Swal from "sweetalert2";
 import { FcGoogle } from "react-icons/fc";
-import { GoogleAuthProvider, getAuth } from "firebase/auth";
+import { GoogleAuthProvider, getAuth, signInWithPopup } from "firebase/auth";
 import { app } from "../../firebase/firebase.config";
 const Login = () => {
   const { signIn } = useContext(AuthContext);
@@ -18,7 +18,21 @@ const Login = () => {
   const auth = getAuth(app)
   const provider = new GoogleAuthProvider()
   const handleGoogleSignIn = () =>{
-    console.log("Google Mama is Comming")
+    // console.log("Google Mama is Comming")
+    signInWithPopup(auth, provider)
+    .then(result => {
+      const user = result.user;
+      console.log(user)
+      Swal.fire({
+        title: "Log In Successful!",
+        icon: "success",
+      });
+      // --------Navigation after login----------
+      navigate(from, { replace: true });
+    })
+    .catch(error =>{
+      console.log("Error", error.message);
+    })
   }
   // -----------------------------------------
   const handleLogin = (event) => {
