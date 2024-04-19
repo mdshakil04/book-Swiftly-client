@@ -6,7 +6,7 @@ import { Link, useLocation, useNavigate } from "react-router-dom";
 import { Helmet } from "react-helmet";
 import Swal from "sweetalert2";
 import { FcGoogle } from "react-icons/fc";
-import { GoogleAuthProvider, getAuth, signInWithPopup } from "firebase/auth";
+import { FacebookAuthProvider, GoogleAuthProvider, getAuth, signInWithPopup } from "firebase/auth";
 import { app } from "../../firebase/firebase.config";
 const Login = () => {
   const { signIn } = useContext(AuthContext);
@@ -22,6 +22,27 @@ const Login = () => {
     signInWithPopup(auth, provider)
     .then(result => {
       const user = result.user;
+      console.log(user)
+      Swal.fire({
+        title: "Log In Successful!",
+        icon: "success",
+      });
+      // --------Navigation after login----------
+      navigate(from, { replace: true });
+    })
+    .catch(error =>{
+      console.log("Error", error.message);
+    })
+  }
+  // -------------Facebook Login--------------------
+  const facebookProvider = new FacebookAuthProvider() 
+  const handleFacebookSignIn = () =>{
+    // console.log("Facebook Mama is Comming")
+    signInWithPopup(auth, facebookProvider)
+    .then(result => {
+      const user = result.user;
+      const credential = FacebookAuthProvider.credentialFromResult(result);
+      const accessToken = credential.accessToken;
       console.log(user)
       Swal.fire({
         title: "Log In Successful!",
@@ -99,6 +120,7 @@ const Login = () => {
                 <div className="form-control mt-6 ">
                   <button className="btn btn-primary btn-outline text-lg">Log in</button>
                   <button onClick={handleGoogleSignIn} className="btn btn-success btn-outline mt-2 text-lg"> <FcGoogle />Log in with Google</button>
+                  <button onClick={handleFacebookSignIn} className="btn btn-success btn-outline mt-2 text-lg"> <FcGoogle />Log in with Facebook</button>
                 </div>
               </form>
               <p className=" ml-8 mb-4 text-yellow-400">
