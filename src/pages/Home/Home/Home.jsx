@@ -5,6 +5,8 @@ import ExtraSection from "../ExtraSection/ExtraSection";
 import Offers from "../Offers/Offers";
 import ReactTabs from "../Tabs/ReactTabs";
 import TopServices from "../TopServices/TopServices";
+// import Gallery from "../Gallery/Gallery";
+
 
 const Home = () => {
     return (
@@ -21,6 +23,7 @@ const Home = () => {
             <Offers></Offers>
             <ReactTabs></ReactTabs>
             <BookingCategories></BookingCategories>
+            {/* <Gallery></Gallery> */}
             
         </div>
         </>

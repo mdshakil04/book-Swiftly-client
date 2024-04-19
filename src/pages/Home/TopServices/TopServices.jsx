@@ -31,7 +31,7 @@ const TopServices = () => {
             spices along with a great deal of ghee.</p>
             <div className="card-actions">
             <p className=" font-bold">Price: Start from $<span className=" text-red-500">120</span></p>
-            <button className="btn btn-outline btn-info hover:shadow-lg hover:shadow-blue-400">Book Now</button>
+            <button className="btn btn-outline btn-success">Book Now</button>
             </div>
           </div>
         </div>

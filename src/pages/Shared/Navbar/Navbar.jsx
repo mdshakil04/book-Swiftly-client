@@ -17,10 +17,16 @@ const Navbar = () => {
         <Link to="/">Home</Link>
       </li>
       <li>
-        <Link to="/signUp">Sign Up</Link>
+        <Link to="/secret">Services</Link>
       </li>
       <li>
-        <Link to="/secret">Secret</Link>
+        <Link to="/secret">Gallery</Link>
+      </li>
+      <li>
+        <Link to="/secret">About Us</Link>
+      </li>
+      <li>
+        <Link to="/signUp">Sign Up</Link>
       </li>
     </>
   );
@@ -61,12 +67,12 @@ const Navbar = () => {
           <>
             <div className=" flex items-center gap-2">
               <div className="avatar">
-                <div className="w-12 rounded-full">
+                <div className="w-16 rounded-full">
                   <img src={user?.photoURL} />
                 </div>
               </div>
-              <span>{user?.displayName}</span>
-              <button onClick={handleLogOut} className="btn btn-ghost btn-outline text-white">
+              <span className=" font-bold text-lg">{user?.displayName}</span>
+              <button onClick={handleLogOut} className="btn btn-warning btn-outline text-white">
               LogOut
             </button>
             </div>
