@@ -14,13 +14,14 @@ const Home = () => {
                     Book Swiftly | Home
                 </title>
             </Helmet>
-            <div  className="">
+            <div  className=" ">
             <Banner></Banner>
-            <ReactTabs></ReactTabs>
-            <Offers></Offers>
             <ExtraSection></ExtraSection>
-            <BookingCategories></BookingCategories>
             <TopServices></TopServices>
+            <Offers></Offers>
+            <ReactTabs></ReactTabs>
+            <BookingCategories></BookingCategories>
+            
         </div>
         </>
     );

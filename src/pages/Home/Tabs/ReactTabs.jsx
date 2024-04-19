@@ -16,7 +16,7 @@ const ReactTabs = () => {
   return (
     <div className=" container my-8 max-w-screen-2xl mx-auto text-center border-2 p-8">
       <h1 className=" container mx-auto mb-4 border-y-4  max-w-xs text-center py-2 text-3xl">
-        Top Destination
+        Explore Bangladesh
       </h1>
       <Tabs>
         <TabList>
@@ -35,7 +35,7 @@ const ReactTabs = () => {
                 <div className="card-body">
                   <h2 className="card-title text-3xl">Naraongonj</h2>
                   <div className="card-actions ">
-                    <button className="btn btn-outline btn-accent">
+                    <button className="btn btn-outline btn-info hover:shadow-lg hover:shadow-blue-400">
                       Book An Adventure
                     </button>
                   </div>
@@ -51,7 +51,7 @@ const ReactTabs = () => {
                 <div className="card-body">
                   <h2 className="card-title text-3xl">Foridpur</h2>
                   <div className="card-actions ">
-                    <button className="btn btn-outline btn-accent">
+                    <button className="btn btn-outline btn-info hover:shadow-lg hover:shadow-blue-400">
                       Book An Adventure
                     </button>
                   </div>
@@ -67,7 +67,7 @@ const ReactTabs = () => {
                 <div className="card-body">
                   <h2 className="card-title text-3xl">Chandpur</h2>
                   <div className="card-actions ">
-                    <button className="btn btn-outline btn-accent">
+                    <button className="btn btn-outline btn-info hover:shadow-lg hover:shadow-blue-400">
                       Book An Adventure
                     </button>
                   </div>
@@ -87,7 +87,7 @@ const ReactTabs = () => {
                 <div className="card-body">
                   <h2 className="card-title text-3xl">Bhola</h2>
                   <div className="card-actions ">
-                    <button className="btn btn-outline btn-success">
+                    <button className="btn btn-outline btn-info hover:shadow-lg hover:shadow-blue-400">
                       Book An Adventure
                     </button>
                   </div>
@@ -102,7 +102,7 @@ const ReactTabs = () => {
                 <div className="card-body">
                   <h2 className="card-title text-3xl">Potukhali</h2>
                   <div className="card-actions ">
-                    <button className="btn btn-outline btn-success">
+                    <button className="btn btn-outline btn-info hover:shadow-lg hover:shadow-blue-400">
                       Book An Adventure
                     </button>
                   </div>
@@ -117,7 +117,7 @@ const ReactTabs = () => {
                 <div className="card-body">
                   <h2 className="card-title text-3xl">Firozpur</h2>
                   <div className="card-actions ">
-                    <button className="btn btn-outline btn-success">
+                    <button className="btn btn-outline btn-info hover:shadow-lg hover:shadow-blue-400">
                       Book An Adventure
                     </button>
                   </div>
@@ -137,7 +137,7 @@ const ReactTabs = () => {
                 <div className="card-body">
                   <h2 className="card-title text-3xl">Laxmipur</h2>
                   <div className="card-actions ">
-                    <button className="btn btn-outline btn-info">
+                    <button className="btn btn-outline btn-info hover:shadow-lg hover:shadow-blue-400">
                       Book An Adventure
                     </button>
                   </div>
@@ -152,7 +152,7 @@ const ReactTabs = () => {
                 <div className="card-body">
                   <h2 className="card-title text-3xl">Kompanigonj</h2>
                   <div className="card-actions ">
-                    <button className="btn btn-outline btn-info">
+                    <button className="btn btn-outline btn-info hover:shadow-lg hover:shadow-blue-400">
                       Book An Adventure
                     </button>
                   </div>
@@ -167,7 +167,7 @@ const ReactTabs = () => {
                 <div className="card-body">
                   <h2 className="card-title text-3xl">Sonapur</h2>
                   <div className="card-actions ">
-                    <button className="btn btn-outline btn-info">
+                    <button className="btn btn-outline btn-info hover:shadow-lg hover:shadow-blue-400">
                       Book An Adventure
                     </button>
                   </div>

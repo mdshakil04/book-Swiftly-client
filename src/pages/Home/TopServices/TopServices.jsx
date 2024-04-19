@@ -31,7 +31,7 @@ const TopServices = () => {
             spices along with a great deal of ghee.</p>
             <div className="card-actions">
             <p className=" font-bold">Price: Start from $<span className=" text-red-500">120</span></p>
-            <button className="btn btn-outline btn-primary">Book Now</button>
+            <button className="btn btn-outline btn-info hover:shadow-lg hover:shadow-blue-400">Book Now</button>
             </div>
           </div>
         </div>
@@ -51,7 +51,7 @@ const TopServices = () => {
             Bangladesh goes beyond just food.</p>
             <div className="card-actions">
             <p className=" font-bold">Price: Start from $<span className=" text-red-500">220</span></p>
-            <button className="btn btn-outline btn-primary">Book Now</button>
+            <button className="btn btn-outline btn-info hover:shadow-lg hover:shadow-blue-400">Book Now</button>
             </div>
           </div>
         </div>
@@ -71,7 +71,7 @@ const TopServices = () => {
             inexorable enthusiasm and intricate details.</p>
             <div className="card-actions">
             <p className=" font-bold">Price: Start from $<span className=" text-red-500">180</span></p>
-            <button className="btn btn-outline btn-primary">Book Now</button>
+            <button className="btn btn-outline btn-info hover:shadow-lg hover:shadow-blue-400">Book Now</button>
             </div>
           </div>
         </div>
@@ -91,7 +91,7 @@ const TopServices = () => {
             spices along with a great deal of ghee.</p>
             <div className="card-actions">
             <p className=" font-bold">Price: Start from $<span className=" text-red-500">150</span></p>
-            <button className="btn btn-outline btn-primary">Book Now</button>
+            <button className="btn btn-outline btn-info hover:shadow-lg hover:shadow-blue-400">Book Now</button>
             </div>
           </div>
         </div>

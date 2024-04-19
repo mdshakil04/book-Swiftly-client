@@ -25,7 +25,7 @@ const Navbar = () => {
     </>
   );
   return (
-    <div className="navbar bg-[#003B95] text-white">
+    <div className="navbar  container  bg-[#EAFBF7] ">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -73,8 +73,8 @@ const Navbar = () => {
           </>
         ) : (
           <>
-            <li className=" btn btn-outline btn-accent">
-              <Link to="/login">Login</Link>
+            <li className=" btn btn-outline btn-info hover:shadow-lg hover:shadow-blue-400">
+              <Link to="/login">LogIn</Link>
             </li>
           </>
         )}

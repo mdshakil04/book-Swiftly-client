@@ -4,6 +4,7 @@ import { useContext } from "react";
 import { AuthContext } from "../../providers/AuthProvider";
 import { Helmet } from "react-helmet";
 import Swal from "sweetalert2";
+import signUpImg from "../../assets/Images/Festival/login.jpg"
 
 const SignUp = () => {
   const {
@@ -40,13 +41,12 @@ const SignUp = () => {
         <title> Book Swiftly | Sign Up</title>
       </Helmet>
       <div>
-        <div className="hero min-h-screen bg-base-200">
-          <div className="hero-content flex-col lg:flex-row-reverse">
+        <div className="hero  ">
+          <div className="hero-content flex-col lg:flex-row-reverse w-1/2">
             <div className="text-center lg:text-left">
-              <h1 className="text-5xl font-bold">Sign Up now!</h1>
-              <p className="py-6"></p>
+              <img src={signUpImg} alt="" />
             </div>
-            <div className="card shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
+            <div className="card shrink-0 w-1/2 shadow-2xl bg-base-100">
               <form onSubmit={handleSubmit(onSubmit)} className="card-body">
                 <div className="form-control">
                   <label className="label">
@@ -137,7 +137,7 @@ const SignUp = () => {
                 </div>
                 <div className="form-control mt-6">
                   <input
-                    className="btn btn-outline btn-primary"
+                    className="btn btn-outline btn-primary hover:shadow-lg hover:shadow-blue-400"
                     type="submit"
                     value="Sign Up"
                   />

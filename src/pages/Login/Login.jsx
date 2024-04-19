@@ -6,6 +6,7 @@ import { Link, useLocation, useNavigate } from "react-router-dom";
 import { Helmet } from "react-helmet";
 import Swal from "sweetalert2";
 import { FcGoogle } from "react-icons/fc";
+import { FaFacebook } from "react-icons/fa";
 import { FacebookAuthProvider, GoogleAuthProvider, getAuth, signInWithPopup } from "firebase/auth";
 import { app } from "../../firebase/firebase.config";
 const Login = () => {
@@ -118,9 +119,11 @@ const Login = () => {
                   </label>
                 </div>
                 <div className="form-control mt-6 ">
-                  <button className="btn btn-primary btn-outline text-lg">Log in</button>
-                  <button onClick={handleGoogleSignIn} className="btn btn-success btn-outline mt-2 text-lg"> <FcGoogle />Log in with Google</button>
-                  <button onClick={handleFacebookSignIn} className="btn btn-success btn-outline mt-2 text-lg"> <FcGoogle />Log in with Facebook</button>
+                  <button className="btn btn-outline btn-info hover:shadow-lg hover:shadow-blue-400 text-lg mb-4">Log in</button>
+                 <div className=" grid md:grid-cols-2 gap-2">
+                  <button onClick={handleGoogleSignIn} className="btn btn-success btn-outline mt-2 text-lg hover:shadow-lg hover:shadow-green-400"> <FcGoogle />Log in with Google</button>
+                  <button onClick={handleFacebookSignIn} className="btn btn-primary btn-outline mt-2 text-lg hover:shadow-lg hover:shadow-blue-400"> <FaFacebook />Log in with Facebook</button>
+                 </div>
                 </div>
               </form>
               <p className=" ml-8 mb-4 text-yellow-400">
