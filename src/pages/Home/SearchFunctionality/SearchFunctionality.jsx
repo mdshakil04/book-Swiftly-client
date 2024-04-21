@@ -5,7 +5,7 @@ import "react-datepicker/dist/react-datepicker.css";
 const SearchFunctionality = () => {
   const [startDate, setStartDate] = useState(new Date());
   return (
-    <div className=" bg-[#EAFBF7] ">
+    <div className=" bg-[#EAFBF7] pt-4 ">
       <div className=" flex justify-center gap-24 pb-4 rounded-xl">
         <div>
           <div>
