@@ -5,6 +5,7 @@ import ExtraSection from "../ExtraSection/ExtraSection";
 import Offers from "../Offers/Offers";
 import ReactTabs from "../Tabs/ReactTabs";
 import TopServices from "../TopServices/TopServices";
+import SearchFunctionality from "../SearchFunctionality/SearchFunctionality";
 // import Gallery from "../Gallery/Gallery";
 
 
@@ -17,6 +18,7 @@ const Home = () => {
                 </title>
             </Helmet>
             <div  className=" ">
+            <SearchFunctionality></SearchFunctionality>
             <Banner></Banner>
             <ExtraSection></ExtraSection>
             <TopServices></TopServices>
