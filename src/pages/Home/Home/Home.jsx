@@ -4,7 +4,6 @@ import BookingCategories from "../BookingCategories/BookingCategories";
 import ExtraSection from "../ExtraSection/ExtraSection";
 import Offers from "../Offers/Offers";
 import ReactTabs from "../Tabs/ReactTabs";
-import TopServices from "../TopServices/TopServices";
 import SearchFunctionality from "../SearchFunctionality/SearchFunctionality";
 import Services from "../TopServices/Services";
 // import Gallery from "../Gallery/Gallery";
@@ -23,7 +22,6 @@ const Home = () => {
             <Banner></Banner>
             <ExtraSection></ExtraSection>
             <Services></Services>
-            <TopServices></TopServices>
             <Offers></Offers>
             <ReactTabs></ReactTabs>
             <BookingCategories></BookingCategories>

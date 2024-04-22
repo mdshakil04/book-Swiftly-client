@@ -5,17 +5,15 @@ import "react-datepicker/dist/react-datepicker.css";
 const SearchFunctionality = () => {
   const [startDate, setStartDate] = useState(new Date());
   return (
-    <div className=" bg-[#EAFBF7] pt-4 ">
-      <div className=" flex justify-center gap-24 pb-4 rounded-xl">
+    <div className=" bg-[#EAFBF7] pt-4 px-2">
+      <div className=" md:flex justify-center lg:gap-24 pb-4 rounded-xl">
         <div>
-          <div>
-            <input
-              className="input text-xl join-item bg-[#EAFBF7] "
-              placeholder="Where can we take you ?"
-            />
-          </div>
+          <input
+            className="input lg:text-xl join-item bg-[#EAFBF7] "
+            placeholder="Where can we take you ?"
+          />
         </div>
-        <div className=" bg-[#EAFBF7] ">
+        <div className=" bg-[#EAFBF7] w-auto ">
           <h2 className=" ">Select Date</h2>
           <DatePicker
             selected={startDate}
@@ -23,7 +21,9 @@ const SearchFunctionality = () => {
           />
         </div>
         <div className="indicator">
-          <button className=" join-item  btn btn-outline btn-info hover:shadow-lg hover:shadow-blue-400 btn-wide font-bold  text-white text-xl">Find Places</button>
+          <button className=" join-item  btn btn-outline btn-info hover:shadow-lg hover:shadow-blue-400 lg:btn-wide font-bold  text-white lg:text-xl">
+            Find Places
+          </button>
         </div>
       </div>
     </div>
