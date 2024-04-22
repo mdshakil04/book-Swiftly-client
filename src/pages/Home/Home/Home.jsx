@@ -24,9 +24,9 @@ const Home = () => {
             <ExtraSection></ExtraSection>
             <Services></Services>
             <Offers></Offers>
-            <Recommended></Recommended>
             <ReactTabs></ReactTabs>
             <BookingCategories></BookingCategories>
+            <Recommended></Recommended>
             {/* <Gallery></Gallery> */}
             
         </div>
