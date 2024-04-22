@@ -1,0 +1,30 @@
+[
+    {
+      "_id" : "1",
+      "image" : "images/",
+      "name": "Discover Local Food",
+      "description": "Explore culinary experiences such as cooking classes, food tours, and dining experiences hosted by local chefs or food enthusiasts.",
+      "price": 150
+    },
+    {
+        "_id" : "2",
+        "image" : "images/",
+      "name": "Stay With Villagers",
+      "description": "Immerse yourself in the local culture by staying with villagers in accommodations such as homestays, guesthouses, or eco-lodges.",
+      "price": 120
+    },
+    {
+        "_id" : "3",
+        "image" : "images/",
+      "name": "Enjoy Local Festivals",
+      "description": "Experience the vibrancy of local festivals, cultural events, and celebrations with music performances, traditional dances, and cultural activities.",
+      "price": 160
+    },
+    {
+        "_id" : "4",
+        "image" : "images/",
+      "name": "Learn Local Dishes",
+      "description": "Learn how to prepare local dishes and traditional recipes through cooking classes, culinary workshops, and hands-on experiences with local cooks.",
+      "price": 130
+    }
+]

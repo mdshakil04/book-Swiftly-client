@@ -5,7 +5,8 @@ import img2 from "../../../assets/Images/Barishal/girl-embroidered-dress-is-stan
 import img3 from "../../../assets/Images/Festival/medium-shot-couple-hiking-together.jpg";
 import img4 from "../../../assets/Images/Noakhali/rice-noodles-bowl-curry-paste-with-chili-cucumber-long-bean-lime-garlic-spring-onion.jpg";
 
-const TopServices = () => {
+// eslint-disable-next-line react/prop-types
+const TopServices = ({service}) => {
   return (
     <div className="max-w-screen-2xl mx-auto ">
       <h1 className="text-3xl text-center border-y-4 max-w-xs container py-4 mx-auto">

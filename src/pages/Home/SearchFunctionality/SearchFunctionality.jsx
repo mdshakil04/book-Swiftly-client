@@ -10,7 +10,7 @@ const SearchFunctionality = () => {
         <div>
           <div>
             <input
-              className="input  join-item bg-[#EAFBF7] "
+              className="input text-xl join-item bg-[#EAFBF7] "
               placeholder="Where can we take you ?"
             />
           </div>

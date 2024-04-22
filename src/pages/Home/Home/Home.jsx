@@ -6,6 +6,7 @@ import Offers from "../Offers/Offers";
 import ReactTabs from "../Tabs/ReactTabs";
 import TopServices from "../TopServices/TopServices";
 import SearchFunctionality from "../SearchFunctionality/SearchFunctionality";
+import Services from "../TopServices/Services";
 // import Gallery from "../Gallery/Gallery";
 
 
@@ -21,6 +22,7 @@ const Home = () => {
             <SearchFunctionality></SearchFunctionality>
             <Banner></Banner>
             <ExtraSection></ExtraSection>
+            <Services></Services>
             <TopServices></TopServices>
             <Offers></Offers>
             <ReactTabs></ReactTabs>
