@@ -80,7 +80,7 @@ const Navbar = () => {
         ) : (
           <>
             <li className=" btn btn-outline btn-info hover:shadow-lg hover:shadow-blue-400">
-              <Link to="/login">LogIn</Link>
+              <Link to="/login">Login Now</Link>
             </li>
           </>
         )}
