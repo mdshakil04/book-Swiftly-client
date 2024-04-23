@@ -18,8 +18,8 @@ const BookingCategories = () => {
         </TabList>
 
         <TabPanel>
-          <div className=" flex gap-24 container mx-auto justify-center">
-            <div className=" max-w-xs p-2 border-2 rounded-xl">
+          <div className=" flex lg:gap-24 container mx-auto justify-center">
+            <div className=" lg:max-w-xs p-2 border-2 rounded-xl">
               <h2 className=" font-bold">Select Date</h2>
               <DatePicker
                 selected={startDate}
@@ -33,7 +33,7 @@ const BookingCategories = () => {
                 </div>
                 <ul
                   tabIndex={0}
-                  className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52"
+                  className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-auto"
                 >
                   <li>
                     <a>Dhaka</a>
