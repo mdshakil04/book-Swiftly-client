@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
+import { Link } from "react-router-dom";
 const SearchFunctionality = () => {
   const [startDate, setStartDate] = useState(new Date());
   return (
@@ -21,9 +22,12 @@ const SearchFunctionality = () => {
           />
         </div>
         <div className="indicator">
-          <button className=" join-item  btn btn-outline btn-info hover:shadow-lg hover:shadow-blue-400 lg:btn-wide font-bold  text-white lg:text-xl">
+          <li className=" join-item  btn btn-outline btn-info hover:shadow-lg hover:shadow-blue-400 lg:btn-wide font-bold  text-white lg:text-xl">
+          <Link to='/locations'>Find Place</Link>
+          </li>
+          {/* <button className=" join-item  btn btn-outline btn-info hover:shadow-lg hover:shadow-blue-400 lg:btn-wide font-bold  text-white lg:text-xl">
             Find Places
-          </button>
+          </button> */}
         </div>
       </div>
     </div>

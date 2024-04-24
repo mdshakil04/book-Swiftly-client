@@ -8,6 +8,9 @@ import Login from "../pages/Login/Login";
 import SignUp from "../pages/SignUp/SignUp";
 import PrivateRoute from "./PrivateRoute";
 import Secret from "../pages/Shared/Secret/Secret";
+// import TopServices from "../pages/Home/TopServices/TopServices";
+import Services from "../pages/Home/TopServices/Services";
+import ReactTabs from "../pages/Home/Tabs/ReactTabs";
   export const router = createBrowserRouter([
     {
       path: "/",
@@ -28,6 +31,14 @@ import Secret from "../pages/Shared/Secret/Secret";
         {
           path: '/secret',
           element: <PrivateRoute><Secret></Secret></PrivateRoute>
+        },
+        {
+          path:'/topService',
+          element:<Services></Services>
+        },
+        {
+          path:'/locations',
+          element:<ReactTabs></ReactTabs>
         }
       ]
     },
