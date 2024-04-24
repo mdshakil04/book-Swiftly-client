@@ -7,20 +7,20 @@ const Offers = () => {
             <h1 className='text-3xl text-center border-y-4 max-w-xs container py-4 mx-auto'>Travel more, spend less</h1>
             <p className=' text-center mb-4'>Promotions, deals, and special offers for you</p>
             <div className=' grid lg:grid-cols-4 md:grid-cols-2 gap-4 p-4'>
-                <div  className=' border-2 border-blue-900 hover:bg-emerald-100 rounded-3xl p-4'>
-                    <h1 className="text-xl">Genius</h1>
+                <div  className=' border-2 border-blue-900 bg-[#EAFBF7] hover:bg-emerald-100 rounded-3xl p-4'>
+                    <h1 className="text-xl font-bold">Genius</h1>
                     <p>You are at <span className=' font-bold'>Genius Level 1</span> in<br></br> our loyalty program</p>
                 </div>
-                <div className=' border-2 border-blue-900 hover:bg-cyan-100 rounded-3xl p-4'>
-                    <h1 className="text-xl">10% discounts on stays</h1>
+                <div className=' border-2 border-blue-900 bg-[#EAFBF7] hover:bg-cyan-100 rounded-3xl p-4'>
+                    <h1 className="text-xl font-bold">10% discounts on stays</h1>
                     <p>Enjoy discounts at participating properties worldwide</p>
                 </div>
-                <div className=' border-2 border-blue-900 hover:bg-blue-100  rounded-3xl p-4'>
-                    <h1 className="text-xl">10% off rental cars</h1>
+                <div className=' border-2 border-blue-900 bg-[#EAFBF7] hover:bg-blue-100  rounded-3xl p-4'>
+                    <h1 className="text-xl font-bold">10% off rental cars</h1>
                     <p>Save on select rental cars</p>
                 </div>
-                <div className=' border-2 border-blue-900 hover:bg-green-100  rounded-3xl p-4'>
-                    <h1 className="text-xl">15% discounts on stays</h1>
+                <div className=' border-2 border-blue-900 bg-[#EAFBF7] hover:bg-green-100  rounded-3xl p-4'>
+                    <h1 className="text-xl font-bold">15% discounts on stays</h1>
                     <p>Complete 5 bookings to unlock Genius Level 2</p>
                 </div>
             </div>

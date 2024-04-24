@@ -18,7 +18,7 @@ const TopServices = ({ service }) => {
             <span className=" text-red-400 font-bold">{price}</span>
           </p>
           <button className="btn btn-outline btn-info hover:shadow-lg hover:shadow-blue-400">
-            Book Now
+            See Details
           </button>
         </div>
       </div>

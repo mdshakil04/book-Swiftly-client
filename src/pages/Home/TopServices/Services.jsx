@@ -15,7 +15,7 @@ const Services = () => {
         Our Top Services
       </h1>
       <p className=" text-center mb-4">
-        Enjoy Local pepoles daily life and foods.
+        Enjoy Local peoples daily life and foods.
       </p>
       <div className=" lg:flex  gap-4">
         {services.map((service) => (
