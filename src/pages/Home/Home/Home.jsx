@@ -27,7 +27,7 @@ const Home = () => {
             <Services></Services>
             <Offers></Offers>
             <ReactTabs></ReactTabs>
-            <BookingCategories></BookingCategories>
+            {/* <BookingCategories></BookingCategories> */}
             <Recommended></Recommended>
             {/* <Gallery></Gallery> */}
             

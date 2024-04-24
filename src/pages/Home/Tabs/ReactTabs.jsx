@@ -14,7 +14,7 @@ import Noakhali3 from "../../../assets/Images/Noakhali/rice-noodles-bowl-curry-p
 
 const ReactTabs = () => {
   return (
-    <div className=" container my-8 max-w-screen-2xl mx-auto text-center  p-8">
+    <div className=" container mt-8 max-w-screen-2xl mx-auto text-center  pb-8">
       <h1 className=" container mx-auto mb-4 border-y-4  max-w-xs text-center py-2 text-3xl">
         Explore Bangladesh
       </h1>
