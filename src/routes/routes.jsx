@@ -12,14 +12,21 @@ import Secret from "../pages/Shared/Secret/Secret";
 // import Services from "../pages/Home/TopServices/Services";
 import ReactTabs from "../pages/Home/Tabs/ReactTabs";
 import ServiceDetails from "../pages/ServiceDetails/ServiceDetails";
+import TopServices from "../pages/Home/TopServices/TopServices";
+import Error from "../pages/Error/Error";
   export const router = createBrowserRouter([
     {
       path: "/",
       element: <Main></Main>,
+      errorElement:<Error></Error>,
       children:[
         {
             path: "/",
             element: <Home></Home>
+        },
+        {
+          path: '/topService',
+          element: <TopServices></TopServices>
         },
         {
           path: 'login',
@@ -30,16 +37,12 @@ import ServiceDetails from "../pages/ServiceDetails/ServiceDetails";
           element: <SignUp></SignUp>
         },
         {
-          path: '/secret',
-          element: <PrivateRoute><Secret></Secret></PrivateRoute>
-        },
-        {
           path:'/serviceDetails',
-          element:<ServiceDetails></ServiceDetails>
+          element:<PrivateRoute><ServiceDetails></ServiceDetails></PrivateRoute>
         },
         {
           path:'/locations',
-          element:<ReactTabs></ReactTabs>
+          element:<PrivateRoute><ReactTabs></ReactTabs></PrivateRoute>
         }
       ]
     },

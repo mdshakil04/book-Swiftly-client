@@ -3,7 +3,7 @@ import React from 'react';
 
 const ServiceDetails = () => {
     return (
-        <div>
+        <div className=''>
             <h2 className=' text-4xl text-center my-12'>Service details will mount here</h2>
         </div>
     );
