@@ -9,8 +9,9 @@ import SignUp from "../pages/SignUp/SignUp";
 import PrivateRoute from "./PrivateRoute";
 import ReactTabs from "../pages/Home/Tabs/ReactTabs";
 import ServiceDetails from "../pages/ServiceDetails/ServiceDetails";
-import TopServices from "../pages/Home/TopServices/TopServices";
+// import TopServices from "../pages/Home/TopServices/TopServices";
 import Error from "../pages/Error/Error";
+import Services from "../pages/Home/TopServices/Services";
   export const router = createBrowserRouter([
     {
       path: "/",
@@ -22,8 +23,8 @@ import Error from "../pages/Error/Error";
             element: <Home></Home>
         },
         {
-          path: '/topService',
-          element: <TopServices></TopServices>
+          path: '/service',
+          element:<Services></Services>
         },
         {
           path: 'login',

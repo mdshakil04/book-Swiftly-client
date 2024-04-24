@@ -10,9 +10,9 @@ const Services = () => {
       .then((data) => setServices(data));
   }, []);
   return (
-    <div>
+    <div className=" my-8">
       <h1 className="text-3xl text-center border-y-4 max-w-xs container py-4 mx-auto">
-        Our Top Services
+        Chose Your Adventure
       </h1>
       <p className=" text-center mb-4">
         Enjoy Local peoples daily life and foods.

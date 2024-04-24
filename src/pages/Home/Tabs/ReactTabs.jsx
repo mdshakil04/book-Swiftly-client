@@ -11,6 +11,7 @@ import BarishalImage3 from "../../../assets/Images/Barishal/shruti-singh-zk1KY3G
 import Noakhali1 from "../../../assets/Images/Noakhali/etty-fidele-oJpkjWcScyg-unsplash.jpg";
 import Noakhali2 from "../../../assets/Images/Noakhali/rani-george-nXOgb54BMB4-unsplash.jpg";
 import Noakhali3 from "../../../assets/Images/Noakhali/rice-noodles-bowl-curry-paste-with-chili-cucumber-long-bean-lime-garlic-spring-onion.jpg";
+import { Link } from "react-router-dom";
 
 const ReactTabs = () => {
   return (
@@ -35,9 +36,9 @@ const ReactTabs = () => {
                 <div className="card-body">
                   <h2 className="card-title text-3xl">Naraongonj</h2>
                   <div className="card-actions ">
-                    <button className="btn btn-outline btn-info hover:shadow-lg hover:shadow-blue-400">
-                      Book An Adventure
-                    </button>
+                    <a className="btn btn-outline btn-info hover:shadow-lg hover:shadow-blue-400">
+                      <Link to= '/service'>Book An Adventure</Link>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -51,9 +52,9 @@ const ReactTabs = () => {
                 <div className="card-body">
                   <h2 className="card-title text-3xl">Foridpur</h2>
                   <div className="card-actions ">
-                    <button className="btn btn-outline btn-info hover:shadow-lg hover:shadow-blue-400">
-                      Book An Adventure
-                    </button>
+                  <a className="btn btn-outline btn-info hover:shadow-lg hover:shadow-blue-400">
+                      <Link to= '/service'>Book An Adventure</Link>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -67,9 +68,9 @@ const ReactTabs = () => {
                 <div className="card-body">
                   <h2 className="card-title text-3xl">Chandpur</h2>
                   <div className="card-actions ">
-                    <button className="btn btn-outline btn-info hover:shadow-lg hover:shadow-blue-400">
-                      Book An Adventure
-                    </button>
+                  <a className="btn btn-outline btn-info hover:shadow-lg hover:shadow-blue-400">
+                      <Link to= '/service'>Book An Adventure</Link>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -87,9 +88,9 @@ const ReactTabs = () => {
                 <div className="card-body">
                   <h2 className="card-title text-3xl">Bhola</h2>
                   <div className="card-actions ">
-                    <button className="btn btn-outline btn-info hover:shadow-lg hover:shadow-blue-400">
-                      Book An Adventure
-                    </button>
+                  <a className="btn btn-outline btn-info hover:shadow-lg hover:shadow-blue-400">
+                      <Link to= '/service'>Book An Adventure</Link>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -102,9 +103,9 @@ const ReactTabs = () => {
                 <div className="card-body">
                   <h2 className="card-title text-3xl">Potukhali</h2>
                   <div className="card-actions ">
-                    <button className="btn btn-outline btn-info hover:shadow-lg hover:shadow-blue-400">
-                      Book An Adventure
-                    </button>
+                  <a className="btn btn-outline btn-info hover:shadow-lg hover:shadow-blue-400">
+                      <Link to= '/service'>Book An Adventure</Link>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -117,9 +118,9 @@ const ReactTabs = () => {
                 <div className="card-body">
                   <h2 className="card-title text-3xl">Firozpur</h2>
                   <div className="card-actions ">
-                    <button className="btn btn-outline btn-info hover:shadow-lg hover:shadow-blue-400">
-                      Book An Adventure
-                    </button>
+                  <a className="btn btn-outline btn-info hover:shadow-lg hover:shadow-blue-400">
+                      <Link to= '/service'>Book An Adventure</Link>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -137,9 +138,9 @@ const ReactTabs = () => {
                 <div className="card-body">
                   <h2 className="card-title text-3xl">Laxmipur</h2>
                   <div className="card-actions ">
-                    <button className="btn btn-outline btn-info hover:shadow-lg hover:shadow-blue-400">
-                      Book An Adventure
-                    </button>
+                  <a className="btn btn-outline btn-info hover:shadow-lg hover:shadow-blue-400">
+                      <Link to= '/service'>Book An Adventure</Link>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -152,9 +153,9 @@ const ReactTabs = () => {
                 <div className="card-body">
                   <h2 className="card-title text-3xl">Kompanigonj</h2>
                   <div className="card-actions ">
-                    <button className="btn btn-outline btn-info hover:shadow-lg hover:shadow-blue-400">
-                      Book An Adventure
-                    </button>
+                  <a className="btn btn-outline btn-info hover:shadow-lg hover:shadow-blue-400">
+                      <Link to= '/service'>Book An Adventure</Link>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -167,9 +168,9 @@ const ReactTabs = () => {
                 <div className="card-body">
                   <h2 className="card-title text-3xl">Sonapur</h2>
                   <div className="card-actions ">
-                    <button className="btn btn-outline btn-info hover:shadow-lg hover:shadow-blue-400">
-                      Book An Adventure
-                    </button>
+                  <a className="btn btn-outline btn-info hover:shadow-lg hover:shadow-blue-400">
+                      <Link to= '/service'>Book An Adventure</Link>
+                    </a>
                   </div>
                 </div>
               </div>
