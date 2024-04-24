@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React, { useContext } from "react";
-import loginImg from "../../assets/Images/Festival/login.jpg";
+import loginImg from "../../assets/Images/Festival/new-login.jpg";
 import { AuthContext } from "../../providers/AuthProvider";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { Helmet } from "react-helmet";
@@ -82,12 +82,12 @@ const Login = () => {
         <title>Book Swiftly | Log In</title>
       </Helmet>
       <div>
-        <div className="hero ">
+        <div className="hero min-h-screen ">
           <div className="hero-content flex-col lg:flex-row-reverse">
             <div className="text-center lg:text-left">
               <img src={loginImg} alt="" />
             </div>
-            <div className="card shrink-0 w-full max-w-xl shadow-2xl bg-base-100">
+            <div className="card shrink-0 w-full max-w-xl ">
               <form onSubmit={handleLogin} className="card-body">
                 <div className="form-control">
                   <label className="label">
@@ -112,11 +112,6 @@ const Login = () => {
                     className="input input-bordered"
                     required
                   />
-                  <label className="label">
-                    <a href="#" className="label-text-alt link link-hover">
-                      Forgot password?
-                    </a>
-                  </label>
                 </div>
                 <div className="form-control mt-6 ">
                   <button className="btn btn-outline btn-info hover:shadow-lg hover:shadow-blue-400 text-lg mb-4">Log in</button>

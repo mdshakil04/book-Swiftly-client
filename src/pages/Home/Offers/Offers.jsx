@@ -4,7 +4,7 @@ import React from 'react';
 const Offers = () => {
     return (
         <div className='max-w-screen-2xl mx-auto mt-12 '>
-            <h1 className='text-3xl text-center border-y-4 max-w-xs container py-4 my-4 mx-auto'>Travel more, spend less</h1>
+            <h1 className='text-3xl text-center border-y-4 max-w-xs container py-4 my-4 mx-auto'>Travel more, Spend less</h1>
             <p className=' text-center mb-4'>Promotions, deals, and special offers for you</p>
             <div className=' grid lg:grid-cols-4 md:grid-cols-2 gap-4 p-4'>
                 <div  className='  bg-[#EAFBF7] hover:bg-emerald-100 rounded-xl p-4'>
