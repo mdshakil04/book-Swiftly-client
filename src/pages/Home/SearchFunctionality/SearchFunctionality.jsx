@@ -6,16 +6,16 @@ import { Link } from "react-router-dom";
 const SearchFunctionality = () => {
   const [startDate, setStartDate] = useState(new Date());
   return (
-    <div className=" bg-[#EAFBF7] pt-4 mt-12 px-2">
-      <div className=" md:flex justify-center lg:gap-24 pb-4 rounded-xl">
+    <div className=" bg-[#EAFBF7]  mt-12 p-8 rounded-2xl">
+      <div className=" md:flex md:justify-evenly p-4 rounded-xl bg-white">
         <div>
           <input
-            className="input lg:text-xl join-item bg-[#EAFBF7] "
+            className="input lg:text-xl join-item  "
             placeholder="Where can we take you ?"
           />
         </div>
-        <div className=" bg-[#EAFBF7] w-auto ">
-          <h2 className=" ">Select Date</h2>
+        <div className="  w-auto ">
+          <h2 className=" font-bold ">Select Date</h2>
           <DatePicker
             selected={startDate}
             onChange={(date) => setStartDate(date)}

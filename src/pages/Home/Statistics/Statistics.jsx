@@ -8,7 +8,7 @@ const Statistics = () => {
     return (
         <div className='mt-6  p-6'>
             <h2 className=' text-4xl text-center'>Why book with Book-Swiftly?</h2>
-            <div className=' mt-8 grid grid-cols-4 gap-4 '>
+            <div className=' mt-8 grid md:grid-cols-2 lg:grid-cols-4 gap-4 '>
                 <div className=' flex flex-col items-center gap-2 p-4  '>
                     <p className=' text-4xl'><MdOutlineFreeCancellation /></p>
                     <h2 className='text-3xl'>Free Cancellation</h2>
