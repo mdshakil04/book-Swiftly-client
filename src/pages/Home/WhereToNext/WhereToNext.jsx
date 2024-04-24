@@ -6,9 +6,10 @@ const WhereToNext = () => {
   return (
     <div>
       {user ? (
-        <div className="  z-10 absolute w-fit -mt-20">
-          <div className="  md:flex md:justify-evenly p-4 rounded-xl">
-            <h2 className=" text-5xl text-white font-bold">Where To Next, {user?.displayName}?</h2>
+        <div className="  lg:z-10 lg:absolute w-fit lg:-mt-28">
+          <div className="  md:flex flex-col md:justify-evenly p-4 rounded-xl">
+            <h2 className=" lg:text-5xl text-2xl lg:text-white font-bold">Where To Next, {user?.displayName}?</h2>
+            <p className=" lg:text-white lg:text-2xl">Find exclusive Genius rewards in every corner of the world!</p>
           </div>
         </div>
       ) : null}
