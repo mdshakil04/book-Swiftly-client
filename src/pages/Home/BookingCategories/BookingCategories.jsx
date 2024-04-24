@@ -8,7 +8,7 @@ import "react-datepicker/dist/react-datepicker.css";
 const BookingCategories = () => {
   const [startDate, setStartDate] = useState(new Date());
   return (
-    <div className=" container my-8 max-w-screen-2xl mx-auto text-center border-2 p-8">
+    <div className=" container my-8 max-w-screen-2xl mx-auto bg-[#EAFBF7] text-center border-2 p-8">
       <Tabs>
         <TabList>
           <Tab>Stays</Tab>
