@@ -1,8 +1,9 @@
 /* eslint-disable no-unused-vars */
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 import { Link } from "react-router-dom";
+// import { AuthContext } from './../../../providers/AuthProvider';
 const SearchFunctionality = () => {
   const [startDate, setStartDate] = useState(new Date());
   return (

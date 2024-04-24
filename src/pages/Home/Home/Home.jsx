@@ -8,6 +8,7 @@ import SearchFunctionality from "../SearchFunctionality/SearchFunctionality";
 import Services from "../TopServices/Services";
 import Recommended from "../Recommended/Recommended";
 import Statistics from "../Statistics/Statistics";
+import WhereToNext from "../WhereToNext/WhereToNext";
 // import Gallery from "../Gallery/Gallery";
 
 
@@ -21,6 +22,7 @@ const Home = () => {
             </Helmet>
             <div  className=" ">
             <Banner></Banner>
+            <WhereToNext></WhereToNext>
             <SearchFunctionality></SearchFunctionality>
             <Statistics></Statistics>
             <ExtraSection></ExtraSection>
