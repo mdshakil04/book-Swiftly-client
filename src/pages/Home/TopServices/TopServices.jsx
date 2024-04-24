@@ -19,7 +19,7 @@ const TopServices = ({ service }) => {
             <span className=" text-red-400 font-bold">{price}</span>
           </p>
           <li className="btn btn-outline btn-info hover:shadow-lg hover:shadow-blue-400" >
-            <Link to='/serviceDetails'>See Details</Link>
+            <Link to='/adDetails'>See Details</Link>
           </li>
         </div>
       </div>

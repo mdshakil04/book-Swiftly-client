@@ -12,6 +12,8 @@ import ServiceDetails from "../pages/ServiceDetails/ServiceDetails";
 // import TopServices from "../pages/Home/TopServices/TopServices";
 import Error from "../pages/Error/Error";
 import Services from "../pages/Home/TopServices/Services";
+import MainServices from "../pages/Home/MainServices/MainServices";
+import AdventureDetails from "../pages/Home/TopServices/AdventureDetails";
   export const router = createBrowserRouter([
     {
       path: "/",
@@ -27,6 +29,10 @@ import Services from "../pages/Home/TopServices/Services";
           element:<Services></Services>
         },
         {
+          path:'/mainServices',
+          element:<MainServices></MainServices>
+        },
+        {
           path: 'login',
           element: <Login></Login>
         },
@@ -37,6 +43,10 @@ import Services from "../pages/Home/TopServices/Services";
         {
           path:'/serviceDetails',
           element:<PrivateRoute><ServiceDetails></ServiceDetails></PrivateRoute>
+        },
+        {
+          path:'/adDetails',
+          element:<PrivateRoute><AdventureDetails></AdventureDetails></PrivateRoute>
         },
         {
           path:'/locations',
