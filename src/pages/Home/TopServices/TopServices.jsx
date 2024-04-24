@@ -1,6 +1,7 @@
 /* eslint-disable react/prop-types */
 /* eslint-disable no-unused-vars */
 import React from "react";
+import { Link } from "react-router-dom";
 // eslint-disable-next-line react/prop-types
 const TopServices = ({ service }) => {
   const { name, image, description, price } = service;
@@ -17,9 +18,9 @@ const TopServices = ({ service }) => {
             Price start from : $
             <span className=" text-red-400 font-bold">{price}</span>
           </p>
-          <button className="btn btn-outline btn-info hover:shadow-lg hover:shadow-blue-400">
-            See Details
-          </button>
+          <li className="btn btn-outline btn-info hover:shadow-lg hover:shadow-blue-400" >
+            <Link to='/serviceDetails'>See Details</Link>
+          </li>
         </div>
       </div>
     </div>

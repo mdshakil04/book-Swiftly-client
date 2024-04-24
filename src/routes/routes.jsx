@@ -9,8 +9,9 @@ import SignUp from "../pages/SignUp/SignUp";
 import PrivateRoute from "./PrivateRoute";
 import Secret from "../pages/Shared/Secret/Secret";
 // import TopServices from "../pages/Home/TopServices/TopServices";
-import Services from "../pages/Home/TopServices/Services";
+// import Services from "../pages/Home/TopServices/Services";
 import ReactTabs from "../pages/Home/Tabs/ReactTabs";
+import ServiceDetails from "../pages/ServiceDetails/ServiceDetails";
   export const router = createBrowserRouter([
     {
       path: "/",
@@ -33,8 +34,8 @@ import ReactTabs from "../pages/Home/Tabs/ReactTabs";
           element: <PrivateRoute><Secret></Secret></PrivateRoute>
         },
         {
-          path:'/topService',
-          element:<Services></Services>
+          path:'/serviceDetails',
+          element:<ServiceDetails></ServiceDetails>
         },
         {
           path:'/locations',
