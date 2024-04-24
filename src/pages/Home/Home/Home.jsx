@@ -7,6 +7,7 @@ import ReactTabs from "../Tabs/ReactTabs";
 import SearchFunctionality from "../SearchFunctionality/SearchFunctionality";
 import Services from "../TopServices/Services";
 import Recommended from "../Recommended/Recommended";
+import Statistics from "../Statistics/Statistics";
 // import Gallery from "../Gallery/Gallery";
 
 
@@ -19,8 +20,9 @@ const Home = () => {
                 </title>
             </Helmet>
             <div  className=" ">
-            <SearchFunctionality></SearchFunctionality>
             <Banner></Banner>
+            <SearchFunctionality></SearchFunctionality>
+            <Statistics></Statistics>
             <ExtraSection></ExtraSection>
             <Services></Services>
             <Offers></Offers>

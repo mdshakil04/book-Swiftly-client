@@ -4,7 +4,7 @@ import img from "../../../assets/Images/Festival/travel-concept-with-landmarks.j
 const Recommended = () => {
   return (
     <div>
-      <div className="card lg:card-side my-4 ">
+      <div className="card lg:card-side my-4 bg-[#EAFBF7] rounded-tl-[300px] rounded-br-[300px] ">
         <div className=" flex flex-col justify-center items-center lg:w-1/2">
             <p className=" text-red-500 uppercase text-start font-bold">Why chose Book-Swiftly</p>
           <h2 className="card-title lg:text-5xl text-2xl">We Recommend Beautiful<br/> Destination Every Month</h2>
@@ -12,7 +12,7 @@ const Recommended = () => {
           <div className="card-actions justify-end">
           </div>
         </div>
-        <figure className=" lg:w-1/2 mt-4 ">
+        <figure className=" lg:w-1/2  ">
           <img
             className=" rounded-tl-[300px] rounded-br-[300px]"
             src={img}

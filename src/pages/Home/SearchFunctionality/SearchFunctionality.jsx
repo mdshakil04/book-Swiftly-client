@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const SearchFunctionality = () => {
   const [startDate, setStartDate] = useState(new Date());
   return (
-    <div className=" bg-[#EAFBF7] pt-4 px-2">
+    <div className=" bg-[#EAFBF7] pt-4 mt-12 px-2">
       <div className=" md:flex justify-center lg:gap-24 pb-4 rounded-xl">
         <div>
           <input

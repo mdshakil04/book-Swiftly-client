@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const TopServices = ({ service }) => {
   const { name, image, description, price } = service;
   return (
-    <div className="card lg:w-96 bg-base-100 shadow-xl">
+    <div className="card lg:w-96  bg-[#EAFBF7] shadow-xl">
       <figure>
         <img src={image} alt="Tour-image" />
       </figure>

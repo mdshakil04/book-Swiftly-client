@@ -28,7 +28,7 @@ const ReactTabs = () => {
         <TabPanel>
           <div className=" grid lg:grid-cols-3 md:grid-cols-2 gap-4 ">
             <div>
-              <div className="card card-compact  bg-base-100 shadow-xl">
+              <div className="card card-compact  bg-[#EAFBF7] shadow-xl">
                 <figure>
                   <img src={DhakaImage1} alt="Image" />
                 </figure>
@@ -44,7 +44,7 @@ const ReactTabs = () => {
             </div>
             {/* -------------------------------------------------------------- */}
             <div>
-              <div className="card card-compact  bg-base-100 shadow-xl">
+              <div className="card card-compact  bg-[#EAFBF7] shadow-xl">
                 <figure>
                   <img src={BarishalImage1} alt="Image" />
                 </figure>
@@ -60,7 +60,7 @@ const ReactTabs = () => {
             </div>
             {/* ------------------------------------------------------------- */}
             <div>
-              <div className="card card-compact  bg-base-100 shadow-xl">
+              <div className="card card-compact  bg-[#EAFBF7] shadow-xl">
                 <figure>
                   <img src={DhakaImage3} alt="Image" />
                 </figure>
@@ -80,7 +80,7 @@ const ReactTabs = () => {
         <TabPanel>
           <div className=" grid lg:grid-cols-3 md:grid-cols-2 gap-4 ">
             <div>
-              <div className="card card-compact  bg-base-100 shadow-xl">
+              <div className="card card-compact  bg-[#EAFBF7] shadow-xl">
                 <figure>
                   <img src={BarishalImage1} alt="Image" />
                 </figure>
@@ -95,7 +95,7 @@ const ReactTabs = () => {
               </div>
             </div>
             <div>
-              <div className="card card-compact  bg-base-100 shadow-xl">
+              <div className="card card-compact  bg-[#EAFBF7] shadow-xl">
                 <figure>
                   <img src={BarishalImage2} alt="Image" />
                 </figure>
@@ -110,7 +110,7 @@ const ReactTabs = () => {
               </div>
             </div>
             <div>
-              <div className="card card-compact  bg-base-100 shadow-xl">
+              <div className="card card-compact  bg-[#EAFBF7] shadow-xl">
                 <figure>
                   <img src={BarishalImage3} alt="Image" />
                 </figure>
@@ -130,7 +130,7 @@ const ReactTabs = () => {
         <TabPanel>
           <div className=" grid lg:grid-cols-3 md:grid-cols-2 gap-4 ">
             <div>
-              <div className="card card-compact  bg-base-100 shadow-xl">
+              <div className="card card-compact  bg-[#EAFBF7] shadow-xl">
                 <figure>
                   <img src={Noakhali1} alt="Image" />
                 </figure>
@@ -145,7 +145,7 @@ const ReactTabs = () => {
               </div>
             </div>
             <div>
-              <div className="card card-compact  bg-base-100 shadow-xl">
+              <div className="card card-compact  bg-[#EAFBF7] shadow-xl">
                 <figure>
                   <img src={Noakhali2} alt="Image" />
                 </figure>
@@ -160,7 +160,7 @@ const ReactTabs = () => {
               </div>
             </div>
             <div>
-              <div className="card card-compact  bg-base-100 shadow-xl">
+              <div className="card card-compact  bg-[#EAFBF7] shadow-xl">
                 <figure>
                   <img src={Noakhali3} alt="Image" />
                 </figure>
