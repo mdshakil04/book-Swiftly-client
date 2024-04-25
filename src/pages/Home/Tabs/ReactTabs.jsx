@@ -27,7 +27,7 @@ const ReactTabs = () => {
         </TabList>
 
         <TabPanel>
-          <div className=" grid lg:grid-cols-3 md:grid-cols-2 gap-4 ">
+          <div className=" grid lg:grid-cols-3 md:grid-cols-2 gap-4 p-4 ">
             <div>
               <div className="card card-compact  bg-[#EAFBF7] shadow-xl">
                 <figure>
