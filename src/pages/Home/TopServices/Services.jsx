@@ -1,6 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React, { useEffect, useState } from "react";
 import TopServices from "./TopServices";
+import { Helmet } from "react-helmet";
 
 const Services = () => {
   const [services, setServices] = useState([]);
@@ -11,6 +12,9 @@ const Services = () => {
   }, []);
   return (
     <div className=" my-8">
+      <Helmet>
+        <title> Book Swiftly | Adventures</title>
+      </Helmet>
       <h1 className="text-3xl text-center border-y-4 max-w-xs container py-4 mx-auto">
         Chose Your Adventure
       </h1>
