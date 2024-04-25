@@ -29,10 +29,10 @@ const Home = () => {
             <ExtraSection></ExtraSection>
             {/* <Services></Services> */}
             <Offers></Offers>
+            <Newslatter></Newslatter>
             <ReactTabs></ReactTabs>
             {/* <BookingCategories></BookingCategories> */}
             <Recommended></Recommended>
-            <Newslatter></Newslatter>
             {/* <Gallery></Gallery> */}
             
         </div>
