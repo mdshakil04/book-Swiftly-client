@@ -8,6 +8,7 @@ import Recommended from "../Recommended/Recommended";
 import Statistics from "../Statistics/Statistics";
 import WhereToNext from "../WhereToNext/WhereToNext";
 import MainServices from "../MainServices/MainServices";
+import Newslatter from "../Newslatter/Newslatter";
 // import Gallery from "../Gallery/Gallery";
 
 
@@ -31,6 +32,7 @@ const Home = () => {
             <ReactTabs></ReactTabs>
             {/* <BookingCategories></BookingCategories> */}
             <Recommended></Recommended>
+            <Newslatter></Newslatter>
             {/* <Gallery></Gallery> */}
             
         </div>

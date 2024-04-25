@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
-import img from "../../../assets/Images/Festival/medium-shot-couple-hiking-together.jpg";
+// import img from "../../../assets/Images/Festival/medium-shot-couple-hiking-together.jpg";
 import { Link } from "react-router-dom";
 const MainServices = () => {
   return (
