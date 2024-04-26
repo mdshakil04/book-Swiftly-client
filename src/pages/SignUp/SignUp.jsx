@@ -41,16 +41,14 @@ const SignUp = () => {
         <title> Book Swiftly | Sign Up</title>
       </Helmet>
       <div>
-        <div className="hero  min-h-screen">
-          <div className="hero-content flex-col lg:flex-row-reverse ">
-            <div className="text-center w-1/2 lg:text-left">
-              <img src={signUpImg} alt="" />
-            </div>
-            <div className="card shrink-0 w-1/2 ">
-              <form onSubmit={handleSubmit(onSubmit)} className="card-body">
+        <div style={{backgroundImage: 'url(https://i.ibb.co/wSk1c2x/signup.jpg)'}} className="hero  min-h-screen">
+       
+          <div className=" hero hero-content ">
+            <div className="  w-1/2 ">
+              <form onSubmit={handleSubmit(onSubmit)} className="">
                 <div className="form-control">
                   <label className="label">
-                    <span className="label-text">Name</span>
+                    <span className="label-text text-white text-xl">Name</span>
                   </label>
                   <input
                     {...register("name", { required: true })}
@@ -66,7 +64,7 @@ const SignUp = () => {
                 </div>
                 <div className="form-control">
                   <label className="label">
-                    <span className="label-text">Photo URL</span>
+                    <span className="label-text text-white text-xl">Photo URL</span>
                   </label>
                   <input
                     {...register("photoURL", { required: true })}
@@ -82,7 +80,7 @@ const SignUp = () => {
                 </div>
                 <div className="form-control">
                   <label className="label">
-                    <span className="label-text">Email</span>
+                    <span className="label-text text-white text-xl">Email</span>
                   </label>
                   <input
                     {...register("email", { required: true })}
@@ -99,7 +97,7 @@ const SignUp = () => {
                 </div>
                 <div className="form-control">
                   <label className="label">
-                    <span className="label-text">Password</span>
+                    <span className="label-text text-white text-xl">Password</span>
                   </label>
                   <input
                     {...register("password", {
@@ -132,13 +130,13 @@ const SignUp = () => {
                 </div>
                 <div className="form-control mt-6">
                   <input
-                    className="btn btn-outline btn-primary hover:shadow-lg hover:shadow-blue-400"
+                    className="btn  btn-primary hover:shadow-lg hover:shadow-blue-400"
                     type="submit"
                     value="Sign Up"
                   />
                 </div>
               </form>
-              <p className=" ml-8 mb-4 text-yellow-600">
+              <p className=" ml-8 mb-4 text-red-700 font-bold">
                 Already Register? <Link to="/login">Go to Login</Link>{" "}
               </p>
             </div>

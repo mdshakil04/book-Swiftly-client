@@ -82,42 +82,39 @@ const Login = () => {
         <title>Book Swiftly | Log In</title>
       </Helmet>
       <div>
-        <div className="hero min-h-screen ">
-          <div className="hero-content flex-col lg:flex-row-reverse">
-            <div className="text-center lg:text-left">
-              <img src={loginImg} alt="" />
-            </div>
-            <div className="card shrink-0 w-full max-w-xl ">
+        <div className="hero lg:h-[650px]" style={{backgroundImage: 'url(https://i.ibb.co/0DbzCpG/new-login.jpg)'}}>
+          <div className="hero-content">
+            <div className=" ">
               <form onSubmit={handleLogin} className="card-body">
                 <div className="form-control">
                   <label className="label">
-                    <span className="label-text">Email</span>
+                    <span className="label-text text-xl font-bold">Email</span>
                   </label>
                   <input
                     type="email"
                     name="email"
-                    placeholder="email"
+                    placeholder="Email"
                     className="input input-bordered"
                     required
                   />
                 </div>
                 <div className="form-control">
                   <label className="label">
-                    <span className="label-text">Password</span>
+                    <span className="label-text text-xl font-bold">Password</span>
                   </label>
                   <input
                     type="password"
                     name="password"
-                    placeholder="password"
+                    placeholder="Password"
                     className="input input-bordered"
                     required
                   />
                 </div>
                 <div className="form-control mt-6 ">
-                  <button className="btn btn-outline btn-info hover:shadow-lg hover:shadow-blue-400 text-lg mb-4">Log in</button>
+                  <button className="btn  btn-info hover:shadow-lg hover:shadow-blue-400 text-lg mb-4 text-white font-bold">Log in</button>
                  <div className=" grid md:grid-cols-2 gap-2">
-                  <button onClick={handleGoogleSignIn} className="btn btn-success btn-outline mt-2 text-lg hover:shadow-lg hover:shadow-green-400"> <FcGoogle />Log in with Google</button>
-                  <button onClick={handleFacebookSignIn} className="btn btn-primary btn-outline mt-2 text-lg hover:shadow-lg hover:shadow-blue-400"> <FaFacebook />Log in with Facebook</button>
+                  <button onClick={handleGoogleSignIn} className="btn btn-success  mt-2 text-lg hover:shadow-lg hover:shadow-green-400"> <FcGoogle />Log in with Google</button>
+                  <button onClick={handleFacebookSignIn} className="btn btn-primary  mt-2 text-lg hover:shadow-lg hover:shadow-blue-400"> <FaFacebook />Log in with Facebook</button>
                  </div>
                 </div>
               </form>

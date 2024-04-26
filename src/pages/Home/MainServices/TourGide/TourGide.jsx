@@ -15,7 +15,7 @@ const TourGide = () => {
         Celebrate Culture, Discover Wonders, with Our Team of Expert Guides!
       </p>
       <div className=" flex flex-col justify-center items-center p-4 gap-4">
-        <div className="card lg:card-side mt-2  ">
+        <div className="card lg:card-side mt-2 border-r-2 border-t-2 ">
           <figure className=" lg:w-2/6 lg:h-full ">
             <img src={brandonEich} alt="Album" />
           </figure>
@@ -46,7 +46,7 @@ const TourGide = () => {
             <button className=" btn lg:w-1/6 btn-outline btn-info hover:shadow-lg hover:shadow-blue-400">Explore Tours</button>
           </div>
         </div>
-        <div className="card lg:card-side mt-2 ">
+        <div className="card lg:card-side mt-2 border-r-2 border-t-2">
           <figure className=" lg:w-2/6 lg:h-full ">
             <img src={DawightMerriman} alt="Album" />
           </figure>
@@ -77,7 +77,7 @@ const TourGide = () => {
             <button className="btn lg:w-1/6 btn-outline btn-info hover:shadow-lg hover:shadow-blue-400">Explore Tours</button>
           </div>
         </div>
-        <div className="card lg:card-side mt-2 ">
+        <div className="card lg:card-side mt-2 border-r-2 border-t-2">
           <figure className="lg:w-2/6 lg:h-full">
             <img src={GuidoVan} alt="Album" />
           </figure>
@@ -108,7 +108,7 @@ const TourGide = () => {
             <button className="btn lg:w-1/6 btn-outline btn-info hover:shadow-lg hover:shadow-blue-400">Explore Tours</button>
           </div>
         </div>
-        <div className="card lg:card-side mt-2 ">
+        <div className="card lg:card-side mt-2 border-r-2 border-t-2">
           <figure className="lg:w-2/6 lg:h-full ">
             <img src={JordanWalke} alt="Album" />
           </figure>
