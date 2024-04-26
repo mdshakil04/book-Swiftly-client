@@ -14,6 +14,8 @@ import Error from "../pages/Error/Error";
 import Services from "../pages/Home/TopServices/Services";
 import MainServices from "../pages/Home/MainServices/MainServices";
 import AdventureDetails from "../pages/Home/TopServices/AdventureDetails";
+import TourGide from "../pages/Home/MainServices/TourGide/TourGide";
+// import ReactTabs from "../pages/Home/Tabs/ReactTabs";
   export const router = createBrowserRouter([
     {
       path: "/",
@@ -51,6 +53,10 @@ import AdventureDetails from "../pages/Home/TopServices/AdventureDetails";
         {
           path:'/locations',
           element:<PrivateRoute><ReactTabs></ReactTabs></PrivateRoute>
+        },
+        {
+          path: '/tourGides',
+          element:<TourGide></TourGide>
         }
       ]
     },

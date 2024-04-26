@@ -52,7 +52,7 @@ const ReactTabs = () => {
                 <div className="card-body">
                   <h2 className="card-title text-3xl">Foridpur</h2>
                   <div className="card-actions ">
-                  <a className="btn btn-outline btn-info hover:shadow-lg hover:shadow-blue-400">
+                    <a className="btn btn-outline btn-info hover:shadow-lg hover:shadow-blue-400">
                       <Link to= '/service'>Book An Adventure</Link>
                     </a>
                   </div>
@@ -68,7 +68,7 @@ const ReactTabs = () => {
                 <div className="card-body">
                   <h2 className="card-title text-3xl">Chandpur</h2>
                   <div className="card-actions ">
-                  <a className="btn btn-outline btn-info hover:shadow-lg hover:shadow-blue-400">
+                    <a className="btn btn-outline btn-info hover:shadow-lg hover:shadow-blue-400">
                       <Link to= '/service'>Book An Adventure</Link>
                     </a>
                   </div>
@@ -88,7 +88,7 @@ const ReactTabs = () => {
                 <div className="card-body">
                   <h2 className="card-title text-3xl">Bhola</h2>
                   <div className="card-actions ">
-                  <a className="btn btn-outline btn-info hover:shadow-lg hover:shadow-blue-400">
+                    <a className="btn btn-outline btn-info hover:shadow-lg hover:shadow-blue-400">
                       <Link to= '/service'>Book An Adventure</Link>
                     </a>
                   </div>
@@ -103,7 +103,7 @@ const ReactTabs = () => {
                 <div className="card-body">
                   <h2 className="card-title text-3xl">Potukhali</h2>
                   <div className="card-actions ">
-                  <a className="btn btn-outline btn-info hover:shadow-lg hover:shadow-blue-400">
+                    <a className="btn btn-outline btn-info hover:shadow-lg hover:shadow-blue-400">
                       <Link to= '/service'>Book An Adventure</Link>
                     </a>
                   </div>
@@ -118,7 +118,7 @@ const ReactTabs = () => {
                 <div className="card-body">
                   <h2 className="card-title text-3xl">Firozpur</h2>
                   <div className="card-actions ">
-                  <a className="btn btn-outline btn-info hover:shadow-lg hover:shadow-blue-400">
+                    <a className="btn btn-outline btn-info hover:shadow-lg hover:shadow-blue-400">
                       <Link to= '/service'>Book An Adventure</Link>
                     </a>
                   </div>
@@ -138,7 +138,7 @@ const ReactTabs = () => {
                 <div className="card-body">
                   <h2 className="card-title text-3xl">Laxmipur</h2>
                   <div className="card-actions ">
-                  <a className="btn btn-outline btn-info hover:shadow-lg hover:shadow-blue-400">
+                   <a className="btn btn-outline btn-info hover:shadow-lg hover:shadow-blue-400">
                       <Link to= '/service'>Book An Adventure</Link>
                     </a>
                   </div>
@@ -153,7 +153,7 @@ const ReactTabs = () => {
                 <div className="card-body">
                   <h2 className="card-title text-3xl">Kompanigonj</h2>
                   <div className="card-actions ">
-                  <a className="btn btn-outline btn-info hover:shadow-lg hover:shadow-blue-400">
+                    <a className="btn btn-outline btn-info hover:shadow-lg hover:shadow-blue-400">
                       <Link to= '/service'>Book An Adventure</Link>
                     </a>
                   </div>
@@ -168,7 +168,7 @@ const ReactTabs = () => {
                 <div className="card-body">
                   <h2 className="card-title text-3xl">Sonapur</h2>
                   <div className="card-actions ">
-                  <a className="btn btn-outline btn-info hover:shadow-lg hover:shadow-blue-400">
+                    <a className="btn btn-outline btn-info hover:shadow-lg hover:shadow-blue-400">
                       <Link to= '/service'>Book An Adventure</Link>
                     </a>
                   </div>
