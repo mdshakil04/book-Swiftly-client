@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
-// import img from "../../../assets/Images/Festival/medium-shot-couple-hiking-together.jpg";
+import img from "../../../assets/Images/Transportation/Transport.jpg";
 import { Link } from "react-router-dom";
 const MainServices = () => {
   return (
@@ -42,14 +42,14 @@ const MainServices = () => {
         </div>
         <div className="card   shadow-xl">
           <figure>
-            <img src="https://i.ibb.co/zFQGf0f/transport.jpg" alt="Tour-image" />
+            <img src={img} alt="Tour-image" />
           </figure>
           <div className="card-body">
             <h2 className="card-title text-3xl">Transportation</h2>
             <p>Seamless journeys begin here. Our transportation service offers more than just getting from A to B; it's a gateway to convenience and comfort. With a fleet of modern vehicles and professional drivers, embark on your adventures worry-free. Whether it's a smooth airport transfer or a scenic road trip, we are your trusted travel companion.</p>
             <div className="card-actions ">
               <a className="btn btn-outline btn-info hover:shadow-lg hover:shadow-blue-400">
-                <Link to="/serviceDetails">See Details</Link>
+                <Link to="/transports">See Details</Link>
               </a>
             </div>
           </div>

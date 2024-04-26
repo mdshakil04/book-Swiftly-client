@@ -15,6 +15,7 @@ import Services from "../pages/Home/TopServices/Services";
 import MainServices from "../pages/Home/MainServices/MainServices";
 import AdventureDetails from "../pages/Home/TopServices/AdventureDetails";
 import TourGide from "../pages/Home/MainServices/TourGide/TourGide";
+import Transportation from "../pages/Home/MainServices/Transportation/Transportation";
 // import ReactTabs from "../pages/Home/Tabs/ReactTabs";
   export const router = createBrowserRouter([
     {
@@ -57,6 +58,10 @@ import TourGide from "../pages/Home/MainServices/TourGide/TourGide";
         {
           path: '/tourGides',
           element:<TourGide></TourGide>
+        },
+        {
+          path: '/transports',
+          element:<Transportation></Transportation>
         }
       ]
     },
