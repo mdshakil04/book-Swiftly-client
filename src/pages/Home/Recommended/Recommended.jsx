@@ -3,7 +3,7 @@ import React from "react";
 import img from "../../../assets/Images/Festival/travel-concept-with-landmarks.jpg";
 const Recommended = () => {
   return (
-    <div className="card lg:card-side mb-4 bg-[#EAFBF7] rounded-tl-[300px] rounded-br-[300px] p-4">
+    <div className="card lg:card-side my-4 bg-[#EAFBF7] rounded-tl-[300px] rounded-br-[300px] p-4">
       <div className=" flex flex-col justify-center items-center lg:w-1/2">
         <p className=" text-red-500 uppercase text-start font-bold">
           Why chose Book-Swiftly

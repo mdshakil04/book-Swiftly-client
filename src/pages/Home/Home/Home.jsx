@@ -24,16 +24,13 @@ const Home = () => {
             <Banner></Banner>
             <WhereToNext></WhereToNext>
             <SearchFunctionality></SearchFunctionality>
+            <Recommended></Recommended>
             <Statistics></Statistics>
             <MainServices></MainServices>
             <ExtraSection></ExtraSection>
-            {/* <Services></Services> */}
+            <ReactTabs></ReactTabs>
             <Offers></Offers>
             <Newslatter></Newslatter>
-            <ReactTabs></ReactTabs>
-            {/* <BookingCategories></BookingCategories> */}
-            <Recommended></Recommended>
-            {/* <Gallery></Gallery> */}
             
         </div>
         </>
