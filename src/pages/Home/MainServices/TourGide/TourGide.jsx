@@ -14,9 +14,9 @@ const TourGide = () => {
       <p className=" text-center mb-4">
         Celebrate Culture, Discover Wonders, with Our Team of Expert Guides!
       </p>
-      <div className=" md:grid md:grid-cols-2 p-4 gap-4">
-        <div className="card lg:card-side mt-2 bg-[#EAFBF7] ">
-          <figure className=" ">
+      <div className=" flex flex-col justify-center items-center p-4 gap-4">
+        <div className="card lg:card-side mt-2  ">
+          <figure className=" lg:w-2/6 lg:h-full ">
             <img src={brandonEich} alt="Album" />
           </figure>
           <div className="card-body ">
@@ -43,11 +43,11 @@ const TourGide = () => {
               <span className=" underline">Contact: </span>{" "}
               brandonEich@example.com | +123-456-7890
             </p>
-            <button className=" btn btn-outline btn-info hover:shadow-lg hover:shadow-blue-400">Explore Tours</button>
+            <button className=" btn lg:w-1/6 btn-outline btn-info hover:shadow-lg hover:shadow-blue-400">Explore Tours</button>
           </div>
         </div>
-        <div className="card lg:card-side mt-2 bg-[#EAFBF7] ">
-          <figure className=" ">
+        <div className="card lg:card-side mt-2 ">
+          <figure className=" lg:w-2/6 lg:h-full ">
             <img src={DawightMerriman} alt="Album" />
           </figure>
           <div className="card-body ">
@@ -74,11 +74,11 @@ const TourGide = () => {
               <span className=" underline">Contact: </span>{" "}
               brandonEich@example.com | +123-456-7890
             </p>
-            <button className=" btn btn-outline btn-info hover:shadow-lg hover:shadow-blue-400">Explore Tours</button>
+            <button className="btn lg:w-1/6 btn-outline btn-info hover:shadow-lg hover:shadow-blue-400">Explore Tours</button>
           </div>
         </div>
-        <div className="card lg:card-side mt-2 bg-[#EAFBF7] ">
-          <figure className="">
+        <div className="card lg:card-side mt-2 ">
+          <figure className="lg:w-2/6 lg:h-full">
             <img src={GuidoVan} alt="Album" />
           </figure>
           <div className="card-body ">
@@ -105,11 +105,11 @@ const TourGide = () => {
               <span className=" underline">Contact: </span>{" "}
               brandonEich@example.com | +123-456-7890
             </p>
-            <button className=" btn btn-outline btn-info hover:shadow-lg hover:shadow-blue-400">Explore Tours</button>
+            <button className="btn lg:w-1/6 btn-outline btn-info hover:shadow-lg hover:shadow-blue-400">Explore Tours</button>
           </div>
         </div>
-        <div className="card lg:card-side mt-2 bg-[#EAFBF7] ">
-          <figure className=" ">
+        <div className="card lg:card-side mt-2 ">
+          <figure className="lg:w-2/6 lg:h-full ">
             <img src={JordanWalke} alt="Album" />
           </figure>
           <div className="card-body ">
@@ -136,7 +136,7 @@ const TourGide = () => {
               <span className=" underline">Contact: </span>{" "}
               brandonEich@example.com | +123-456-7890
             </p>
-            <button className=" btn btn-outline btn-info hover:shadow-lg hover:shadow-blue-400">Explore Tours</button>
+            <button className=" btn w-1/6 btn-outline btn-info hover:shadow-lg hover:shadow-blue-400">Explore Tours</button>
           </div>
         </div>
       </div>
