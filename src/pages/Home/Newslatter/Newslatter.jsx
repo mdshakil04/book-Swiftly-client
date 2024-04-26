@@ -13,8 +13,8 @@ const Newslatter = () => {
           Everyone’s welcome.
         </p>
         <ol className=" ">
-          <li className=" font-bold">Get More Discount</li>
-          <li className=" font-bold">Get Premium Magazines</li>
+          <li className=" font-bold text-red-400">Get More Discount</li>
+          <li className=" font-bold text-red-400">G-et Premium Magazines</li>
         </ol>
         <div>
           <input
