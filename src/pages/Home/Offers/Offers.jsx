@@ -16,7 +16,7 @@ const Offers = () => {
                     <p>Enjoy discounts at participating properties worldwide</p>
                 </div>
                 <div className=' bg-[#EAFBF7] hover:bg-blue-100  rounded-xl p-4'>
-                    <h1 className="text-xl font-bold">10% off rental cars</h1>
+                    <h1 className="text-xl font-bold">10% off rental Local Vehicle</h1>
                     <p>Save on select rental cars</p>
                 </div>
                 <div className=' bg-[#EAFBF7] hover:bg-green-100  rounded-xl p-4'>
