@@ -2,6 +2,7 @@
 import React, { useContext } from "react";
 import { Link } from "react-router-dom";
 import { AuthContext } from "../../../providers/AuthProvider";
+import logo from "../../../assets/Images/logo/logo.png"
 
 const Navbar = () => {
   const { user, logOut } = useContext(AuthContext);
@@ -17,7 +18,7 @@ const Navbar = () => {
         <Link to="/">Home</Link>
       </li>
       <li>
-        <Link to='/mainServices'>Services</Link>
+        <Link to="/mainServices">Services</Link>
       </li>
       <li>
         <Link to="/about">About Us</Link>
@@ -54,7 +55,12 @@ const Navbar = () => {
             {navLinks}
           </ul>
         </div>
-        <a className="btn btn-ghost text-xl">Book Swiftly</a>
+        <div className=" flex items-center">
+          <img className="md:w-16 w-12 rounded-full" src={logo} alt="" />
+          <a className="btn btn-ghost text-xl">
+            <Link to="/">Book Swiftly</Link>
+          </a>
+        </div>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">{navLinks}</ul>
@@ -69,9 +75,12 @@ const Navbar = () => {
                 </div>
               </div>
               <span className=" font-bold md:text-lg">{user?.displayName}</span>
-              <button onClick={handleLogOut} className="btn btn-warning btn-outline text-white">
-              LogOut
-            </button>
+              <button
+                onClick={handleLogOut}
+                className="btn btn-warning btn-outline text-white"
+              >
+                LogOut
+              </button>
             </div>
           </>
         ) : (

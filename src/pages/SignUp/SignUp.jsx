@@ -4,7 +4,6 @@ import { useContext } from "react";
 import { AuthContext } from "../../providers/AuthProvider";
 import { Helmet } from "react-helmet";
 import Swal from "sweetalert2";
-import signUpImg from "../../assets/Images/Festival/signup.jpg"
 
 const SignUp = () => {
   const {

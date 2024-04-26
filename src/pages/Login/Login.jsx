@@ -1,6 +1,5 @@
 /* eslint-disable no-unused-vars */
 import React, { useContext } from "react";
-import loginImg from "../../assets/Images/Festival/new-login.jpg";
 import { AuthContext } from "../../providers/AuthProvider";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { Helmet } from "react-helmet";
