@@ -7,7 +7,7 @@ const port = process.env.PORT || 5000;
 app.use(cors());
 app.use(express.json());
 
-
+// Connect to MongoDB
 const { MongoClient, ServerApiVersion } = require('mongodb');
 const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@cluster0.l8rzo73.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`;
 
@@ -24,6 +24,7 @@ async function run() {
   try {
     // Connect the client to the server	(optional starting in v4.7)
     await client.connect();
+    // Services collection
     const serviceCollection = client.db("BookSwiftlyDB").collection("services");
     app.get('/services', async(req, res) =>{
         const result = await serviceCollection.find().toArray();
