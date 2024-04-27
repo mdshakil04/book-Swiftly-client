@@ -11,8 +11,8 @@ const MainServices = () => {
       <p className=" text-center mb-4">
         Enjoy Local peoples daily life and foods.
       </p>
-      <div className=" lg:grid lg:grid-cols-3 gap-4 p-4">
-        <div className="card shadow-xl">
+      <div className=" lg:grid lg:grid-cols-3 gap-4 p-4  relative">
+        <div className="card shadow-xl transform transition duration-500 hover:scale-105 ">
           <figure>
             <img src="https://i.ibb.co/pjfqnHH/adventure.jpg" alt="Tour-image" />
           </figure>
@@ -26,7 +26,7 @@ const MainServices = () => {
             </div>
           </div>
         </div>
-        <div className="card   shadow-xl">
+        <div className="card   shadow-xl transform transition duration-500 hover:scale-105 ">
           <figure>
             <img src="https://i.ibb.co/hYsJy49/gide.jpg" alt="Tour-image" />
           </figure>
@@ -40,7 +40,7 @@ const MainServices = () => {
             </div>
           </div>
         </div>
-        <div className="card   shadow-xl">
+        <div className="card   shadow-xl transform transition duration-500 hover:scale-105 ">
           <figure>
             <img src={img} alt="Tour-image" />
           </figure>

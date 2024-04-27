@@ -27,9 +27,9 @@ const ReactTabs = () => {
         </TabList>
 
         <TabPanel>
-          <div className=" grid lg:grid-cols-3 md:grid-cols-2 gap-4 p-4 ">
+          <div className=" relative grid lg:grid-cols-3 md:grid-cols-2 gap-4 p-4 ">
             <div>
-              <div className="card card-compact  bg-[#EAFBF7] shadow-xl">
+              <div className="card card-compact  bg-[#EAFBF7] shadow-xl transform transition duration-500 hover:scale-105">
                 <figure>
                   <img src={DhakaImage1} alt="Image" />
                 </figure>
@@ -45,7 +45,7 @@ const ReactTabs = () => {
             </div>
             {/* -------------------------------------------------------------- */}
             <div>
-              <div className="card card-compact  bg-[#EAFBF7] shadow-xl">
+              <div className="card card-compact  bg-[#EAFBF7] shadow-xl transform transition duration-500 hover:scale-105">
                 <figure>
                   <img src={BarishalImage1} alt="Image" />
                 </figure>
@@ -61,7 +61,7 @@ const ReactTabs = () => {
             </div>
             {/* ------------------------------------------------------------- */}
             <div>
-              <div className="card card-compact  bg-[#EAFBF7] shadow-xl">
+              <div className="card card-compact  bg-[#EAFBF7] shadow-xl transform transition duration-500 hover:scale-105">
                 <figure>
                   <img src={DhakaImage3} alt="Image" />
                 </figure>
@@ -79,9 +79,9 @@ const ReactTabs = () => {
         </TabPanel>
         {/* ------------------------------------------ */}
         <TabPanel>
-          <div className=" grid lg:grid-cols-3 md:grid-cols-2 gap-4 ">
+          <div className=" relative grid lg:grid-cols-3 md:grid-cols-2 gap-4 ">
             <div>
-              <div className="card card-compact  bg-[#EAFBF7] shadow-xl">
+              <div className="card card-compact  bg-[#EAFBF7] shadow-xl transform transition duration-500 hover:scale-105">
                 <figure>
                   <img src={BarishalImage1} alt="Image" />
                 </figure>
@@ -96,7 +96,7 @@ const ReactTabs = () => {
               </div>
             </div>
             <div>
-              <div className="card card-compact  bg-[#EAFBF7] shadow-xl">
+              <div className="card card-compact  bg-[#EAFBF7] shadow-xl transform transition duration-500 hover:scale-105">
                 <figure>
                   <img src={BarishalImage2} alt="Image" />
                 </figure>
@@ -111,7 +111,7 @@ const ReactTabs = () => {
               </div>
             </div>
             <div>
-              <div className="card card-compact  bg-[#EAFBF7] shadow-xl">
+              <div className="card card-compact  bg-[#EAFBF7] shadow-xl transform transition duration-500 hover:scale-105">
                 <figure>
                   <img src={BarishalImage3} alt="Image" />
                 </figure>
@@ -129,9 +129,9 @@ const ReactTabs = () => {
         </TabPanel>
         {/* --------------------------------------------- */}
         <TabPanel>
-          <div className=" grid lg:grid-cols-3 md:grid-cols-2 gap-4 ">
+          <div className=" relative grid lg:grid-cols-3 md:grid-cols-2 gap-4 ">
             <div>
-              <div className="card card-compact  bg-[#EAFBF7] shadow-xl">
+              <div className="card card-compact  bg-[#EAFBF7] shadow-xl transform transition duration-500 hover:scale-105">
                 <figure>
                   <img src={Noakhali1} alt="Image" />
                 </figure>
@@ -146,7 +146,7 @@ const ReactTabs = () => {
               </div>
             </div>
             <div>
-              <div className="card card-compact  bg-[#EAFBF7] shadow-xl">
+              <div className="card card-compact  bg-[#EAFBF7] shadow-xl transform transition duration-500 hover:scale-105">
                 <figure>
                   <img src={Noakhali2} alt="Image" />
                 </figure>
@@ -161,7 +161,7 @@ const ReactTabs = () => {
               </div>
             </div>
             <div>
-              <div className="card card-compact  bg-[#EAFBF7] shadow-xl">
+              <div className="card card-compact  bg-[#EAFBF7] shadow-xl transform transition duration-500 hover:scale-105">
                 <figure>
                   <img src={Noakhali3} alt="Image" />
                 </figure>
