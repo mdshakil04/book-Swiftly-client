@@ -20,7 +20,7 @@ const Stay = ({ stay }) => {
             <span className=" text-red-400 font-bold">{price}</span>
           </p>
           <a className="btn btn-outline btn-info hover:shadow-lg hover:shadow-blue-400">
-            <Link to="/foods">Book Now</Link>
+            <Link to="">Book Now</Link>
           </a>
         </div>
       </div>

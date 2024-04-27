@@ -12,7 +12,7 @@ const TopServices = () => {
         <title> Book Swiftly | Adventures</title>
       </Helmet>
       <h1 className="text-3xl text-center border-y-4 max-w-xs container py-4 px-4 mx-auto">
-        Chose Your Adventure
+        Chose Adventure
       </h1>
       <p className=" text-center mb-4">
         Enjoy Local peoples daily life and foods.
