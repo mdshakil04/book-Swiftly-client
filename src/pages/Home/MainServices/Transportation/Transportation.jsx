@@ -15,8 +15,8 @@ const Transportation = () => {
         Reliable, Comfortable, and Convenient Travel Solutions for Your
         Adventure!
       </p>
-      <div className=" md:grid lg:grid-cols-4 md:grid-cols-2 gap-8">
-        <div className="card w-96 bg-base-100 shadow-xl">
+      <div className=" relative md:grid lg:grid-cols-4 md:grid-cols-2 gap-8">
+        <div className="card w-96 bg-base-100 shadow-xl transform transition duration-500 hover:scale-105">
           <figure>
             <img
               className=" rounded-t-2xl h-[250px]"
@@ -36,7 +36,7 @@ const Transportation = () => {
             <button  className="btn btn-outline btn-info hover:shadow-lg hover:shadow-blue-400">Book Now</button>
           </div>
         </div>
-        <div className="card w-96 bg-base-100 shadow-xl">
+        <div className="card w-96 bg-base-100 shadow-xl transform transition duration-500 hover:scale-105">
           <figure>
             <img className=" rounded-t-2xl h-[250px]"
               src={Van}
@@ -55,7 +55,7 @@ const Transportation = () => {
             <button  className="btn btn-outline btn-info hover:shadow-lg hover:shadow-blue-400">Book Now</button>
           </div>
         </div>
-        <div className="card w-96 bg-base-100 shadow-xl">
+        <div className="card w-96 bg-base-100 shadow-xl transform transition duration-500 hover:scale-105">
           <figure>
             <img className=" rounded-t-2xl h-[250px]"
               src={GorurGari}
@@ -74,7 +74,7 @@ const Transportation = () => {
             <button  className="btn btn-outline btn-info hover:shadow-lg hover:shadow-blue-400">Book Now</button>
           </div>
         </div>
-        <div className="card w-96 bg-base-100 shadow-xl">
+        <div className="card w-96 bg-base-100 shadow-xl transform transition duration-500 hover:scale-105">
           <figure>
             <img className=" rounded-t-2xl h-[250px]"
               src={Boat}

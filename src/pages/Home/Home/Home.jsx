@@ -23,7 +23,7 @@ const Home = () => {
             <div  className=" ">
             <Banner></Banner>
             <WhereToNext></WhereToNext>
-            <SearchFunctionality></SearchFunctionality>
+            {/* <SearchFunctionality></SearchFunctionality> */}
             <Recommended></Recommended>
             <Statistics></Statistics>
             <MainServices></MainServices>

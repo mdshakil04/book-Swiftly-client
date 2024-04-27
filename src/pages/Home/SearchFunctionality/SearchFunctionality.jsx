@@ -22,13 +22,10 @@ const SearchFunctionality = () => {
             onChange={(date) => setStartDate(date)}
           />
         </div>
-        <div className="indicator">
-          <li className=" join-item  btn btn-outline btn-info hover:shadow-lg hover:shadow-blue-400 lg:btn-wide font-bold  text-white lg:text-xl">
+        <div className="indicator relative">
+          <a className=" join-item  btn btn-outline btn-info hover:shadow-lg hover:shadow-blue-400 lg:btn-wide font-bold  text-white lg:text-xl transform transition duration-500 hover:scale-105">
           <Link to='/locations'>Find Place</Link>
-          </li>
-          {/* <button className=" join-item  btn btn-outline btn-info hover:shadow-lg hover:shadow-blue-400 lg:btn-wide font-bold  text-white lg:text-xl">
-            Find Places
-          </button> */}
+          </a>
         </div>
       </div>
     </div>
