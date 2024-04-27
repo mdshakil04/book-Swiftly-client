@@ -13,9 +13,11 @@ import ServiceDetails from "../pages/ServiceDetails/ServiceDetails";
 import Error from "../pages/Error/Error";
 import Services from "../pages/Home/TopServices/Services";
 import MainServices from "../pages/Home/MainServices/MainServices";
-import AdventureDetails from "../pages/Home/TopServices/AdventureDetails";
 import TourGide from "../pages/Home/MainServices/TourGide/TourGide";
 import Transportation from "../pages/Home/MainServices/Transportation/Transportation";
+import LocalFoods from "../pages/Home/TopServices/LocalFood/LocalFoods";
+import TopServices from "../pages/Home/TopServices/TopServices";
+import StayVillageContainer from "../pages/Home/TopServices/StayVillage/StayVillageContainer";
 // import ReactTabs from "../pages/Home/Tabs/ReactTabs";
   export const router = createBrowserRouter([
     {
@@ -29,7 +31,7 @@ import Transportation from "../pages/Home/MainServices/Transportation/Transporta
         },
         {
           path: '/service',
-          element:<Services></Services>
+          element:<TopServices></TopServices>
         },
         {
           path:'/mainServices',
@@ -48,10 +50,6 @@ import Transportation from "../pages/Home/MainServices/Transportation/Transporta
           element:<PrivateRoute><ServiceDetails></ServiceDetails></PrivateRoute>
         },
         {
-          path:'/adDetails',
-          element:<PrivateRoute><AdventureDetails></AdventureDetails></PrivateRoute>
-        },
-        {
           path:'/locations',
           element:<PrivateRoute><ReactTabs></ReactTabs></PrivateRoute>
         },
@@ -62,6 +60,14 @@ import Transportation from "../pages/Home/MainServices/Transportation/Transporta
         {
           path: '/transports',
           element:<Transportation></Transportation>
+        },
+        {
+          path: '/foods',
+          element:<LocalFoods></LocalFoods>
+        },
+        {
+          path:'/stay',
+          element:<StayVillageContainer></StayVillageContainer>
         }
       ]
     },
