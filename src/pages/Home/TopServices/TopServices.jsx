@@ -106,7 +106,7 @@ const TopServices = () => {
                 <span className=" text-red-400 font-bold">50</span>
               </p>
               <a className="btn btn-outline btn-info hover:shadow-lg hover:shadow-blue-400">
-                <Link to="/foods">See Details</Link>
+                <Link to="/dishes">See Details</Link>
               </a>
             </div>
           </div>

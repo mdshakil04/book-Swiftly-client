@@ -19,6 +19,7 @@ import LocalFoods from "../pages/Home/TopServices/LocalFood/LocalFoods";
 import TopServices from "../pages/Home/TopServices/TopServices";
 import StayVillageContainer from "../pages/Home/TopServices/StayVillage/StayVillageContainer";
 import FestivalContainer from "../pages/Home/TopServices/FestivalContainer/FestivalContainer";
+import DishesContainer from "../pages/Home/TopServices/DishesContainer/DishesContainer";
 // import ReactTabs from "../pages/Home/Tabs/ReactTabs";
   export const router = createBrowserRouter([
     {
@@ -73,6 +74,10 @@ import FestivalContainer from "../pages/Home/TopServices/FestivalContainer/Festi
         {
           path:'/festival',
           element: <FestivalContainer></FestivalContainer>
+        },
+        {
+          path : '/dishes',
+          element: <DishesContainer></DishesContainer>
         }
       ]
     },
