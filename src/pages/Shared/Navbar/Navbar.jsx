@@ -2,7 +2,7 @@
 import React, { useContext } from "react";
 import { Link } from "react-router-dom";
 import { AuthContext } from "../../../providers/AuthProvider";
-import logo from "../../../assets/Images/logo/logo.png"
+import logo from "../../../assets/Images/logo/logo.png";
 
 const Navbar = () => {
   const { user, logOut } = useContext(AuthContext);
@@ -50,7 +50,7 @@ const Navbar = () => {
           </div>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 text-black font-semibold"
+            className="group menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box  text-black font-semibold"
           >
             {navLinks}
           </ul>
@@ -62,8 +62,12 @@ const Navbar = () => {
           </a>
         </div>
       </div>
-      <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1">{navLinks}</ul>
+      <div className="navbar-center hidden lg:flex ">
+        <ul className="menu menu-horizontal px-1 group relative w-max">
+          {navLinks}
+          <span className="absolute -bottom-1 left-1/2 w-0 transition-all h-0.5 bg-indigo-600 group-hover:w-3/6"></span>
+          <span className="absolute -bottom-1 right-1/2 w-0 transition-all h-0.5 bg-indigo-600 group-hover:w-3/6"></span>
+        </ul>
       </div>
       <div className="navbar-end">
         {user ? (
