@@ -1,11 +1,10 @@
 /* eslint-disable no-unused-vars */
+/* eslint-disable react/prop-types */
 import React from "react";
 import { Link } from "react-router-dom";
 
-// eslint-disable-next-line react/prop-types
-const Stay = ({ stay }) => {
-  // eslint-disable-next-line react/prop-types
-  const { title, image, description, price } = stay;
+const Festival = ({ festival }) => {
+  const { title, image, description, price } = festival;
   return (
     <div className="card   bg-[#EAFBF7] shadow-xl transform transition duration-500 hover:scale-105 ">
       <figure>
@@ -28,4 +27,4 @@ const Stay = ({ stay }) => {
   );
 };
 
-export default Stay;
+export default Festival;
