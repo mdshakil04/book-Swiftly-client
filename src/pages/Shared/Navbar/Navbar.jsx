@@ -3,7 +3,7 @@ import React, { useContext } from "react";
 import { Link } from "react-router-dom";
 import { AuthContext } from "../../../providers/AuthProvider";
 import logo from "../../../assets/Images/logo/logo.png";
-
+import { TbBrandBooking } from "react-icons/tb";
 const Navbar = () => {
   const { user, logOut } = useContext(AuthContext);
 
@@ -70,9 +70,14 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="navbar-end">
+        <button className="btn btn-outline btn-primary">
+        <span className=" text-3xl"><TbBrandBooking /></span>
+          My Bookings
+          <div className="badge badge-secondary">+0</div>
+        </button>
         {user ? (
           <>
-            <details className=" flex items-center gap-2 dropdown">
+            <details className=" flex items-center gap-2 dropdown flex-none">
               <summary className="btn">
                 <div className=" avatar">
                   <div className="md:w-16 w-12 rounded-full">
@@ -83,8 +88,8 @@ const Navbar = () => {
                   {user?.displayName}
                 </span>
               </summary>
-              <div className=" flex-none">
-                <ul className="  menu menu-horizontal px-1">
+              <div className=" ">
+                <ul className="  menu menu-horizontal px-1 ">
                   <li>
                     <button
                       onClick={handleLogOut}
@@ -92,6 +97,12 @@ const Navbar = () => {
                     >
                       LogOut
                     </button>
+                  </li>
+                  <li>
+                    <a>Link 1</a>
+                  </li>
+                  <li>
+                    <a>Link 2</a>
                   </li>
                 </ul>
               </div>
