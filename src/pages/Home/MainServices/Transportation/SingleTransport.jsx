@@ -12,13 +12,14 @@ const SingleTransport = ({ transport }) => {
       <div className="card-body">
         <h2 className="card-title">
           {name}
-          <div className="badge badge-secondary">${price}</div>
+          <div className="badge badge-secondary">{badge}</div>
         </h2>
         <p>
          {description}
         </p>
         <p>Capacity:{capacity}</p>
         <p>Feature: {feature}</p>
+        <p>Price: ${price}</p>
         <button className="btn btn-outline btn-info hover:shadow-lg hover:shadow-blue-400">
           Book Now
         </button>

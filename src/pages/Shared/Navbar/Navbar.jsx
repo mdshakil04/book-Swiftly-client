@@ -72,20 +72,30 @@ const Navbar = () => {
       <div className="navbar-end">
         {user ? (
           <>
-            <div className=" flex items-center gap-2">
-              <div className="avatar">
-                <div className="md:w-16 w-12 rounded-full">
-                  <img src={user?.photoURL} />
+            <details className=" flex items-center gap-2 dropdown">
+              <summary className="btn">
+                <div className=" avatar">
+                  <div className="md:w-16 w-12 rounded-full">
+                    <img src={user?.photoURL} />
+                  </div>
                 </div>
+                <span className=" font-bold md:text-lg ">
+                  {user?.displayName}
+                </span>
+              </summary>
+              <div className=" flex-none">
+                <ul className="  menu menu-horizontal px-1">
+                  <li>
+                    <button
+                      onClick={handleLogOut}
+                      className="btn btn-warning btn-outline text-white"
+                    >
+                      LogOut
+                    </button>
+                  </li>
+                </ul>
               </div>
-              <span className=" font-bold md:text-lg">{user?.displayName}</span>
-              <button
-                onClick={handleLogOut}
-                className="btn btn-warning btn-outline text-white"
-              >
-                LogOut
-              </button>
-            </div>
+            </details>
           </>
         ) : (
           <>
