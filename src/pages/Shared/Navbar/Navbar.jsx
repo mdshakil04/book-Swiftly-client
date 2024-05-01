@@ -70,7 +70,7 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="navbar-end">
-        <button className="btn btn-outline btn-primary">
+        <button className="btn btn-outline">
         <span className=" text-3xl"><TbBrandBooking /></span>
           My Bookings
           <div className="badge badge-secondary">+0</div>
@@ -79,11 +79,11 @@ const Navbar = () => {
           <>
             <details className=" flex items-center gap-2 dropdown flex-none">
               <summary className="btn">
-                <div className=" avatar">
+                {/* <div className=" avatar">
                   <div className="md:w-16 w-12 rounded-full">
                     <img src={user?.photoURL} />
                   </div>
-                </div>
+                </div> */}
                 <span className=" font-bold md:text-lg ">
                   {user?.displayName}
                 </span>
