@@ -5,9 +5,11 @@ import SingleGuide from "./SingleGuide";
 const TourGide = () => {
   const [guide , setGuide] = useState([]);
   useEffect(()=>{
-    fetch('tourGuides.json')
+    fetch('mainServices.json')
      .then(res => res.json())
-     .then((data) => setGuide(data));
+     .then(data => {
+      const tourGuide = data.filter(item => item.category === 'guide')
+      setGuide(tourGuide)})
   },[])
   return (
     <div className=" my-8 ">
@@ -20,7 +22,7 @@ const TourGide = () => {
       <div className=" relative flex flex-col justify-center items-center p-4 gap-4">
           {
             guide.map(guide => <SingleGuide
-            key={guide.key} guide={guide}
+            key={guide._id} guide={guide}
             ></SingleGuide>)
           }
       </div>
