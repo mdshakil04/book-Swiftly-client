@@ -26,8 +26,13 @@ async function run() {
     await client.connect();
     // Services collection
     const serviceCollection = client.db("BookSwiftlyDB").collection("services");
+    const mainServiceCollection = client.db("BookSwiftlyDB").collection("mainServices");
     app.get('/services', async(req, res) =>{
         const result = await serviceCollection.find().toArray();
+        res.send(result);
+    })
+    app.get('/mainServices', async(req, res) =>{
+        const result = await mainServiceCollection.find().toArray();
         res.send(result);
     })
     // Send a ping to confirm a successful connection
