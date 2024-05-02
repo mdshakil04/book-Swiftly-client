@@ -31,6 +31,7 @@ async function run() {
         const result = await serviceCollection.find().toArray();
         res.send(result);
     })
+    // Main Service Collection
     app.get('/mainServices', async(req, res) =>{
         const result = await mainServiceCollection.find().toArray();
         res.send(result);
