@@ -32,7 +32,7 @@ async function run() {
     // Services collection
     app.get('/services', async(req, res) =>{
         const result = await serviceCollection.find().toArray();
-        res.send(result);
+        res.send(result);node
     })
     // Main Service Collection
     app.get('/mainServices', async(req, res) =>{
